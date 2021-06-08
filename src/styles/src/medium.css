@@ -1,0 +1,2330 @@
+@media (max-width: 767.98px) {
+    .nav.mdPrimary,
+    .btn.mdPrimary,
+    .tag.mdPrimary,
+    .box.mdPrimary,
+    .icon.mdPrimary *,
+    .alert.mdPrimary,
+    .banner.mdPrimary,
+    .nav.mdSecondary,
+    .btn.mdSecondary,
+    .tag.mdSecondary,
+    .box.mdSecondary,
+    .icon.mdSecondary *,
+    .alert.mdSecondary,
+    .banner.mdSecondary,
+    .nav.mdSuccess,
+    .btn.mdSuccess,
+    .tag.mdSuccess,
+    .box.mdSuccess,
+    .icon.mdSuccess *,
+    .alert.mdSuccess,
+    .banner.mdSuccess,
+    .nav.mdInfo,
+    .btn.mdInfo,
+    .tag.mdInfo,
+    .box.mdInfo,
+    .icon.mdInfo *,
+    .alert.mdInfo,
+    .banner.mdInfo,
+    .nav.mdDanger,
+    .btn.mdDanger,
+    .tag.mdDanger,
+    .box.mdDanger,
+    .icon.mdDanger *,
+    .alert.mdDanger,
+    .banner.mdDanger,
+    .nav.mdDark,
+    .btn.mdDark,
+    .tag.mdDark,
+    .box.mdDark,
+    .icon.mdDark *,
+    .alert.mdDark,
+    .banner.mdDark,
+    .nav.mdBold,
+    .btn.mdBold,
+    .tag.mdBold,
+    .box.mdBold,
+    .icon.mdBold *,
+    .alert.mdBold,
+    .banner.mdBold,
+    .nav.mdPrimaryBold,
+    .btn.mdPrimaryBold,
+    .tag.mdPrimaryBold,
+    .box.mdPrimaryBold,
+    .icon.mdPrimaryBold *,
+    .alert.mdPrimaryBold,
+    .banner.mdPrimaryBold,
+    .nav.mdSecondaryBold,
+    .btn.mdSecondaryBold,
+    .tag.mdSecondaryBold,
+    .box.mdSecondaryBold,
+    .icon.mdSecondaryBold *,
+    .alert.mdSecondaryBold,
+    .banner.mdSecondaryBold,
+    .nav.mdSuccessBold,
+    .btn.mdSuccessBold,
+    .tag.mdSuccessBold,
+    .box.mdSuccessBold,
+    .icon.mdSuccessBold *,
+    .alert.mdSuccessBold,
+    .banner.mdSuccessBold,
+    .nav.mdInfoBold,
+    .btn.mdInfoBold,
+    .tag.mdInfoBold,
+    .box.mdInfoBold,
+    .icon.mdInfoBold *,
+    .alert.mdInfoBold,
+    .banner.mdInfoBold,
+    .nav.mdWarningBold,
+    .btn.mdWarningBold,
+    .tag.mdWarningBold,
+    .box.mdWarningBold,
+    .icon.mdWarningBold *,
+    .alert.mdWarningBold,
+    .banner.mdWarningBold,
+    .nav.mdDangerBold,
+    .btn.mdDangerBold,
+    .tag.mdDangerBold,
+    .box.mdDangerBold,
+    .icon.mdDangerBold *,
+    .alert.mdDangerBold,
+    .banner.mdDangerBold,
+    .nav.mdDarkBold,
+    .btn.mdDarkBold,
+    .tag.mdDarkBold,
+    .box.mdDarkBold,
+    .icon.mdDarkBold *,
+    .alert.mdDarkBold,
+    .banner.mdDarkBold {
+        color: #ffffff;
+    }
+    .nav.mdLight,
+    .btn.mdLight,
+    .tag.mdLight,
+    .box.mdLight,
+    .icon.mdLight *,
+    .alert.mdLight,
+    .banner.mdLight,
+    .nav.mdPrimaryLight,
+    .btn.mdPrimaryLight,
+    .tag.mdPrimaryLight,
+    .box.mdPrimaryLight,
+    .icon.mdPrimaryLight *,
+    .alert.mdPrimaryLight,
+    .banner.mdPrimaryLight,
+    .nav.mdSecondaryLight,
+    .btn.mdSecondaryLight,
+    .tag.mdSecondaryLight,
+    .box.mdSecondaryLight,
+    .icon.mdSecondaryLight *,
+    .alert.mdSecondaryLight,
+    .banner.mdSecondaryLight,
+    .nav.mdSuccessLight,
+    .btn.mdSuccessLight,
+    .tag.mdSuccessLight,
+    .box.mdSuccessLight,
+    .icon.mdSuccessLight *,
+    .alert.mdSuccessLight,
+    .banner.mdSuccessLight,
+    .nav.mdInfoLight,
+    .btn.mdInfoLight,
+    .tag.mdInfoLight,
+    .box.mdInfoLight,
+    .icon.mdInfoLight *,
+    .alert.mdInfoLight,
+    .banner.mdInfoLight,
+    .nav.mdWarningLight,
+    .btn.mdWarningLight,
+    .tag.mdWarningLight,
+    .box.mdWarningLight,
+    .icon.mdWarningLight *,
+    .alert.mdWarningLight,
+    .banner.mdWarningLight,
+    .nav.mdDangerLight,
+    .btn.mdDangerLight,
+    .tag.mdDangerLight,
+    .box.mdDangerLight,
+    .icon.mdDangerLight *,
+    .alert.mdDangerLight,
+    .banner.mdDangerLight,
+    .nav.mdDarkLight,
+    .btn.mdDarkLight,
+    .tag.mdDarkLight,
+    .box.mdDarkLight,
+    .icon.mdDarkLight *,
+    .alert.mdDarkLight,
+    .banner.mdDarkLight,
+    .nav.mdStandard,
+    .btn.mdStandard,
+    .tag.mdStandard,
+    .box.mdStandard,
+    .icon.mdStandard *,
+    .alert.mdStandard,
+    .banner.mdStandard,
+    .nav.mdWarning,
+    .btn.mdWarning,
+    .tag.mdWarning,
+    .box.mdWarning,
+    .icon.mdWarning *,
+    .alert.mdWarning,
+    .banner.mdWarning {
+        color: #1d1d1d;
+    }
+    .btn.mdLarge,
+    .tag.mdLarge,
+    .formbox.mdLarge {
+        padding: 4px 12px;
+        font-size: 26px;
+    }
+    .btn.mdStandard,
+    .tag.mdStandard,
+    .formbox.mdStandard {
+        padding: 3.5px 10.5px;
+        font-size: 22px;
+    }
+    .btn.mdMedium,
+    .tag.mdMedium,
+    .formbox.mdMedium {
+        padding: 3px 9px;
+        font-size: 18px;
+    }
+    .btn.mdSmall,
+    .tag.mdSmall,
+    .formbox.mdSmall {
+        padding: 2.5px 7.5px;
+        font-size: 14px;
+    }
+    .icon.mdLarge,
+    .icon.mdLarge * {
+        width: 42px;
+        height: 42px;
+        font-size: 22px;
+    }
+    .icon.mdStandard,
+    .icon.mdStandard * {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+    .icon.mdMedium,
+    .icon.mdMedium * {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .icon.mdSmall,
+    .icon.mdSmall * {
+        width: 24px;
+        height: 24px;
+        font-size: 10px;
+    }
+    .btn.mdHollow,
+    .tag.mdHollow,
+    .icon.mdHollow,
+    .icon.mdHollow i {
+        background-color: transparent !important;
+    }
+    .btn.mdBlank,
+    .tag.mdBlank,
+    .icon.mdBlank,
+    .icon.mdBlank i {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+    /*================================================================================================================================
+    Divs Grid System
+    ================================================================================================================================*/
+    .mdShow {
+        display: initial;
+    }
+    .mdHide {
+        display: none;
+    }
+    .block.mdCollapse,
+    .block.mdCollapse>[class*="col"] {
+        padding: 0;
+    }
+    .mdColMax {
+        width: max-content;
+    }
+    .mdCol-12 {
+        width: calc(var(--col) * 12);
+    }
+    .mdCol-11 {
+        width: calc(var(--col) * 11);
+    }
+    .mdCol-10 {
+        width: calc(var(--col) * 10);
+    }
+    .mdCol-9 {
+        width: calc(var(--col) * 9);
+    }
+    .mdCol-8 {
+        width: calc(var(--col) * 8);
+    }
+    .mdCol-7 {
+        width: calc(var(--col) * 7);
+    }
+    .mdCol-6 {
+        width: calc(var(--col) * 6);
+    }
+    .mdCol-5 {
+        width: calc(var(--col) * 5);
+    }
+    .mdCol-4 {
+        width: calc(var(--col) * 4);
+    }
+    .mdCol-3 {
+        width: calc(var(--col) * 3);
+    }
+    .mdCol-2 {
+        width: calc(var(--col) * 2);
+    }
+    .mdCol-1 {
+        width: calc(var(--col) * 1);
+    }
+    .mdCol {
+        flex: 1;
+    }
+    /*================================================================================================================================
+    Divs Breaks
+    ================================================================================================================================*/
+    .mdBreak-1 {
+        height: 50px;
+    }
+    .mdBreak-2 {
+        height: 40px;
+    }
+    .mdBreak-3 {
+        height: 30px;
+    }
+    .mdBreak-4 {
+        height: 20px;
+    }
+    .mdBreak-5 {
+        height: 10px;
+    }
+    .mdBreak-6 {
+        height: 5px;
+    }
+    /*================================================================================================================================
+    Divs Flex Order
+    ================================================================================================================================*/
+    .mdOrder-1 {
+        order: -1;
+    }
+    .mdOrder-2 {
+        order: 2;
+    }
+    .mdOrder-3 {
+        order: 3;
+    }
+    .mdOrder-4 {
+        order: 4;
+    }
+    .mdOrder-5 {
+        order: 5;
+    }
+    .mdOrder-6 {
+        order: 6;
+    }
+    .mdOrder-7 {
+        order: 7;
+    }
+    .mdOrder-8 {
+        order: 8;
+    }
+    .mdOrder-9 {
+        order: 9;
+    }
+    .mdOrder-10 {
+        order: 10;
+    }
+    .mdOrder-11 {
+        order: 11;
+    }
+    .mdOrder-12 {
+        order: 12;
+    }
+    /*================================================================================================================================
+    Divs Full Size
+    ================================================================================================================================*/
+    .mdFull {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 100vh;
+    }
+    .mdFullX {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .mdFullY {
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 100vh;
+    }
+    /*================================================================================================================================
+    Divs Flex Position
+    ================================================================================================================================*/
+    .mdCenter {
+        align-items: center;
+        justify-content: center;
+    }
+    .mdStart {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .mdEnd {
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    /*================================================================================================================================
+    Divs Flex Justify Content
+    ================================================================================================================================*/
+    .mdContentStartX {
+        justify-content: flex-start;
+    }
+    .mdContentCenterX {
+        justify-content: center;
+    }
+    .mdContentEndX {
+        justify-content: flex-end;
+    }
+    .mdContentBetweenX {
+        justify-content: space-between;
+    }
+    .mdContentAroundX {
+        justify-content: space-around;
+    }
+    .mdContentEvenlyX {
+        justify-content: space-evenly;
+    }
+    /*================================================================================================================================
+    Divs Flex Align Content
+    ================================================================================================================================*/
+    .mdContentStartY {
+        align-content: flex-start;
+    }
+    .mdContentCenterY {
+        align-content: center;
+    }
+    .mdContentEndY {
+        align-content: flex-end;
+    }
+    .mdContentBetweenY {
+        align-content: space-between;
+    }
+    .mdContentAroundY {
+        align-content: space-around;
+    }
+    .mdContentEvenlyY {
+        align-content: space-evenly;
+    }
+    /*================================================================================================================================
+    Divs Flex Align Slef
+    ================================================================================================================================*/
+    .mdSelfStart {
+        align-self: flex-start;
+    }
+    .mdSelfCenter {
+        align-self: center;
+    }
+    .mdSelfEnd {
+        align-self: flex-end;
+    }
+    .mdSelfBetween {
+        align-self: space-between;
+    }
+    .mdSelfAround {
+        align-self: space-around;
+    }
+    .mdSelfEvenly {
+        align-self: space-evenly;
+    }
+    /*================================================================================================================================
+    Divs Flex Align Items
+    ================================================================================================================================*/
+    .mdItemsStart {
+        align-items: flex-start;
+    }
+    .mdItemsCenter {
+        align-items: center;
+    }
+    .mdItemsEnd {
+        align-items: flex-end;
+    }
+    .mdItemsStretch {
+        align-items: stretch;
+    }
+    /*================================================================================================================================
+    Divs Positions
+    ================================================================================================================================*/
+    .mdPositionFixed {
+        position: fixed;
+    }
+    .mdPositionAbsolute {
+        position: absolute;
+    }
+    .mdPositionRelative {
+        position: relative;
+    }
+    .mdPositionSticky {
+        position: sticky;
+    }
+    .mdPositionTop {
+        top: 0;
+    }
+    .mdPositionRight {
+        right: 0;
+    }
+    .mdPositionBottom {
+        bottom: 0;
+    }
+    .mdPositionLeft {
+        left: 0;
+    }
+    .mdPositionTopLeft {
+        top: 0;
+        left: 0;
+    }
+    .mdPositionTopRight {
+        top: 0;
+        right: 0;
+    }
+    .mdPositionBottomRight {
+        right: 0;
+        bottom: 0;
+    }
+    .mdPositionBottomLeft {
+        bottom: 0;
+        left: 0;
+    }
+    .mdPositionCenter {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mdPositionTopCenter {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .mdPositionRightCenter {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .mdPositionBottomCenter {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .mdPositionLeftCenter {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    /*================================================================================================================================
+    Headers
+    ================================================================================================================================*/
+    .mdHeader-1 {
+        font-size: 80px;
+    }
+    .mdHeader-2 {
+        font-size: 68px;
+    }
+    .mdHeader-3 {
+        font-size: 56px;
+    }
+    .mdHeader-4 {
+        font-size: 44px;
+    }
+    .mdHeader-5 {
+        font-size: 32px;
+    }
+    .mdHeader-6 {
+        font-size: 20px;
+    }
+    /*================================================================================================================================
+    Sub Headers
+    ================================================================================================================================*/
+    .mdSubHeader-1 {
+        font-size: 72px;
+    }
+    .mdSubHeader-2 {
+        font-size: 60px;
+    }
+    .mdSubHeader-3 {
+        font-size: 48px;
+    }
+    .mdSubHeader-4 {
+        font-size: 36px;
+    }
+    .mdSubHeader-5 {
+        font-size: 24px;
+    }
+    .mdSubHeader-6 {
+        font-size: 12px;
+    }
+    /*================================================================================================================================
+    Displays
+    ================================================================================================================================*/
+    .mdDisplay-1 {
+        font-size: 200px;
+    }
+    .mdDisplay-2 {
+        font-size: 170px;
+    }
+    .mdDisplay-3 {
+        font-size: 140px;
+    }
+    .mdDisplay-4 {
+        font-size: 110px;
+    }
+    .mdDisplay-5 {
+        font-size: 80px;
+    }
+    .mdDisplay-6 {
+        font-size: 50px;
+    }
+    /*================================================================================================================================
+    All
+    ================================================================================================================================*/
+    .btn.mdStandard,
+    .tag.mdStandard,
+    .icon.mdStandard {
+        border-color: var(--default);
+    }
+    .btn.mdLight,
+    .tag.mdLight,
+    .icon.mdLight {
+        border-color: var(--defaultLight);
+    }
+    .btn.mdBold,
+    .tag.mdBold,
+    .icon.mdBold {
+        border-color: var(--defaultBold);
+    }
+    .btn.mdPrimary,
+    .tag.mdPrimary,
+    .icon.mdPrimary {
+        border-color: var(--primary);
+    }
+    .btn.mdPrimaryLight,
+    .tag.mdPrimaryLight,
+    .icon.mdPrimaryLight {
+        border-color: var(--primaryLight);
+    }
+    .btn.mdPrimaryBold,
+    .tag.mdPrimaryBold,
+    .icon.mdPrimaryBold {
+        border-color: var(--primaryBold);
+    }
+    .btn.mdSecondary,
+    .tag.mdSecondary,
+    .icon.mdSecondary {
+        border-color: var(--secondary);
+    }
+    .btn.mdSecondaryLight,
+    .tag.mdSecondaryLight,
+    .icon.mdSecondaryLight {
+        border-color: var(--secondaryLight);
+    }
+    .btn.mdSecondaryBold,
+    .tag.mdSecondaryBold,
+    .icon.mdSecondaryBold {
+        border-color: var(--secondaryBold);
+    }
+    .btn.mdSuccess,
+    .tag.mdSuccess,
+    .icon.mdSuccess {
+        border-color: var(--success);
+    }
+    .btn.mdSuccessLight,
+    .tag.mdSuccessLight,
+    .icon.mdSuccessLight {
+        border-color: var(--successLight);
+    }
+    .btn.mdSuccessBold,
+    .tag.mdSuccessBold,
+    .icon.mdSuccessBold {
+        border-color: var(--successBold);
+    }
+    .btn.mdInfo,
+    .tag.mdInfo,
+    .icon.mdInfo {
+        border-color: var(--info);
+    }
+    .btn.mdInfoLight,
+    .tag.mdInfoLight,
+    .icon.mdInfoLight {
+        border-color: var(--infoLight);
+    }
+    .btn.mdInfoBold,
+    .tag.mdInfoBold,
+    .icon.mdInfoBold {
+        border-color: var(--infoBold);
+    }
+    .btn.mdWarning,
+    .tag.mdWarning,
+    .icon.mdWarning {
+        border-color: var(--warning);
+    }
+    .btn.mdWarningLight,
+    .tag.mdWarningLight,
+    .icon.mdWarningLight {
+        border-color: var(--warningLight);
+    }
+    .btn.mdWarningBold,
+    .tag.mdWarningBold,
+    .icon.mdWarningBold {
+        border-color: var(--warningBold);
+    }
+    .btn.mdDanger,
+    .tag.mdDanger,
+    .icon.mdDanger {
+        border-color: var(--danger);
+    }
+    .btn.mdDangerLight,
+    .tag.mdDangerLight,
+    .icon.mdDangerLight {
+        border-color: var(--dangerLight);
+    }
+    .btn.mdDangerBold,
+    .tag.mdDangerBold,
+    .icon.mdDangerBold {
+        border-color: var(--dangerBold);
+    }
+    .btn.mdDark,
+    .tag.mdDark,
+    .icon.mdDark {
+        border-color: var(--dark);
+    }
+    .btn.mdDarkLight,
+    .tag.mdDarkLight,
+    .icon.mdDarkLight {
+        border-color: var(--darkLight);
+    }
+    .btn.mdDarkBold,
+    .tag.mdDarkBold,
+    .icon.mdDarkBold {
+        border-color: var(--darkBold);
+    }
+    .nav.mdStandard,
+    .btn.mdStandard,
+    .tag.mdStandard,
+    .box.mdStandard,
+    .icon.mdStandard,
+    .alert.mdStandard,
+    .banner.mdStandard {
+        background-color: var(--default);
+    }
+    .nav.mdPrimary,
+    .btn.mdPrimary,
+    .tag.mdPrimary,
+    .box.mdPrimary,
+    .icon.mdPrimary,
+    .alert.mdPrimary,
+    .banner.mdPrimary {
+        background-color: var(--primary);
+    }
+    .nav.mdSecondary,
+    .btn.mdSecondary,
+    .tag.mdSecondary,
+    .box.mdSecondary,
+    .icon.mdSecondary,
+    .alert.mdSecondary,
+    .banner.mdSecondary {
+        background-color: var(--secondary);
+    }
+    .nav.mdSuccess,
+    .btn.mdSuccess,
+    .tag.mdSuccess,
+    .box.mdSuccess,
+    .icon.mdSuccess,
+    .alert.mdSuccess,
+    .banner.mdSuccess {
+        background-color: var(--success);
+    }
+    .nav.mdInfo,
+    .btn.mdInfo,
+    .tag.mdInfo,
+    .box.mdInfo,
+    .icon.mdInfo,
+    .alert.mdInfo,
+    .banner.mdInfo {
+        background-color: var(--info);
+    }
+    .nav.mdWarning,
+    .btn.mdWarning,
+    .tag.mdWarning,
+    .box.mdWarning,
+    .icon.mdWarning,
+    .alert.mdWarning,
+    .banner.mdWarning {
+        background-color: var(--warning);
+    }
+    .nav.mdDanger,
+    .btn.mdDanger,
+    .tag.mdDanger,
+    .box.mdDanger,
+    .icon.mdDanger,
+    .alert.mdDanger,
+    .banner.mdDanger {
+        background-color: var(--danger);
+    }
+    .nav.mdDark,
+    .btn.mdDark,
+    .tag.mdDark,
+    .box.mdDark,
+    .icon.mdDark,
+    .alert.mdDark,
+    .banner.mdDark {
+        background-color: var(--dark);
+    }
+    .nav.mdLight,
+    .btn.mdLight,
+    .tag.mdLight,
+    .box.mdLight,
+    .icon.mdLight,
+    .alert.mdLight,
+    .banner.mdLight {
+        background-color: var(--defaultLight);
+    }
+    .nav.mdPrimaryLight,
+    .btn.mdPrimaryLight,
+    .tag.mdPrimaryLight,
+    .box.mdPrimaryLight,
+    .icon.mdPrimaryLight,
+    .alert.mdPrimaryLight,
+    .banner.mdPrimaryLight {
+        background-color: var(--primaryLight);
+    }
+    .nav.mdSecondaryLight,
+    .btn.mdSecondaryLight,
+    .tag.mdSecondaryLight,
+    .box.mdSecondaryLight,
+    .icon.mdSecondaryLight,
+    .alert.mdSecondaryLight,
+    .banner.mdSecondaryLight {
+        background-color: var(--secondaryLight);
+    }
+    .nav.mdSuccessLight,
+    .btn.mdSuccessLight,
+    .tag.mdSuccessLight,
+    .box.mdSuccessLight,
+    .icon.backSuccessLight,
+    .alert.mdSuccessLight,
+    .banner.mdSuccessLight {
+        background-color: var(--successLight);
+    }
+    .nav.mdInfoLight,
+    .btn.mdInfoLight,
+    .tag.mdInfoLight,
+    .box.mdInfoLight,
+    .icon.mdInfoLight,
+    .alert.mdInfoLight,
+    .banner.mdInfoLight {
+        background-color: var(--infoLight);
+    }
+    .nav.mdWarningLight,
+    .btn.mdWarningLight,
+    .tag.mdWarningLight,
+    .box.mdWarningLight,
+    .icon.mdWarningLight,
+    .alert.mdWarningLight,
+    .banner.mdWarningLight {
+        background-color: var(--warningLight);
+    }
+    .nav.mdDangerLight,
+    .btn.mdDangerLight,
+    .tag.mdDangerLight,
+    .box.mdDangerLight,
+    .icon.mdDangerLight,
+    .alert.mdDangerLight,
+    .banner.mdDangerLight {
+        background-color: var(--dangerLight);
+    }
+    .nav.mdDarkLight,
+    .btn.mdDarkLight,
+    .tag.mdDarkLight,
+    .box.mdDarkLight,
+    .icon.mdDarkLight,
+    .alert.mdDarkLight,
+    .banner.mdDarkLight {
+        background-color: var(--darkLight);
+    }
+    .nav.mdBold,
+    .btn.mdBold,
+    .tag.mdBold,
+    .box.mdBold,
+    .icon.mdBold,
+    .alert.mdBold,
+    .banner.mdBold {
+        background-color: var(--defaultBold);
+    }
+    .nav.mdPrimaryBold,
+    .btn.mdPrimaryBold,
+    .tag.mdPrimaryBold,
+    .box.mdPrimaryBold,
+    .icon.mdPrimaryBold,
+    .alert.mdPrimaryBold,
+    .banner.mdPrimaryBold {
+        background-color: var(--primaryBold);
+    }
+    .nav.mdSecondaryBold,
+    .btn.mdSecondaryBold,
+    .tag.mdSecondaryBold,
+    .box.mdSecondaryBold,
+    .icon.mdSecondaryBold,
+    .alert.mdSecondaryBold,
+    .banner.mdSecondaryBold {
+        background-color: var(--secondaryBold);
+    }
+    .nav.mdSuccessBold,
+    .btn.mdSuccessBold,
+    .tag.mdSuccessBold,
+    .box.mdSuccessBold,
+    .icon.mdSuccessBold,
+    .alert.mdSuccessBold,
+    .banner.mdSuccessBold {
+        background-color: var(--successBold);
+    }
+    .nav.mdInfoBold,
+    .btn.mdInfoBold,
+    .tag.mdInfoBold,
+    .box.mdInfoBold,
+    .icon.mdInfoBold,
+    .alert.mdInfoBold,
+    .banner.mdInfoBold {
+        background-color: var(--infoBold);
+    }
+    .nav.mdWarningBold,
+    .btn.mdWarningBold,
+    .tag.mdWarningBold,
+    .box.mdWarningBold,
+    .icon.mdWarningBold,
+    .alert.mdWarningBold,
+    .banner.mdWarningBold {
+        background-color: var(--warningBold);
+    }
+    .nav.mdDangerBold,
+    .btn.mdDangerBold,
+    .tag.mdDangerBold,
+    .box.mdDangerBold,
+    .icon.mdDangerBold,
+    .alert.mdDangerBold,
+    .banner.mdDangerBold {
+        background-color: var(--dangerBold);
+    }
+    .nav.mdDarkBold,
+    .btn.mdDarkBold,
+    .tag.mdDarkBold,
+    .box.mdDarkBold,
+    .icon.mdDarkBold,
+    .alert.mdDarkBold,
+    .banner.mdDarkBold {
+        background-color: var(--darkBold);
+    }
+    .btn.mdPill,
+    .tag.mdPill,
+    .icon.mdRounded,
+    .formbox.mdPill,
+    .formrow.mdPill {
+        border-radius: 100px;
+    }
+    .btn.mdStandard.mdHollow,
+    .tag.mdStandard.mdHollow,
+    .icon.mdStandard.mdHollow,
+    .icon.mdStandard.mdHollow i {
+        color: var(--default);
+        border-color: var(--default);
+    }
+    .btn.mdLight.mdHollow,
+    .tag.mdLight.mdHollow,
+    .icon.mdLight.mdHollow,
+    .icon.mdLight.mdHollow i {
+        color: var(--defaultLight);
+        border-color: var(--defaultLight);
+    }
+    .btn.mdBold.mdHollow,
+    .tag.mdBold.mdHollow,
+    .icon.mdBold.mdHollow,
+    .icon.mdBold.mdHollow i {
+        color: var(--defaultBold);
+        border-color: var(--defaultBold);
+    }
+    .btn.mdPrimary.mdHollow,
+    .tag.mdPrimary.mdHollow,
+    .icon.mdPrimary.mdHollow,
+    .icon.mdPrimary.mdHollow i {
+        color: var(--primary);
+        border-color: var(--primary);
+    }
+    .btn.mdPrimaryLight.mdHollow,
+    .tag.mdPrimaryLight.mdHollow,
+    .icon.mdPrimaryLight.mdHollow,
+    .icon.mdPrimaryLight.mdHollow i {
+        color: var(--primaryLight);
+        border-color: var(--primaryLight);
+    }
+    .btn.mdPrimaryBold.mdHollow,
+    .tag.mdPrimaryBold.mdHollow,
+    .icon.mdPrimaryBold.mdHollow,
+    .icon.mdPrimaryBold.mdHollow i {
+        color: var(--primaryBold);
+        border-color: var(--primaryBold);
+    }
+    .btn.mdSecondary.mdHollow,
+    .tag.mdSecondary.mdHollow,
+    .icon.mdSecondary.mdHollow,
+    .icon.mdSecondary.mdHollow i {
+        color: var(--secondary);
+        border-color: var(--secondary);
+    }
+    .btn.mdSecondaryLight.mdHollow,
+    .tag.mdSecondaryLight.mdHollow,
+    .icon.mdSecondaryLight.mdHollow,
+    .icon.mdSecondaryLight.mdHollow i {
+        color: var(--secondaryLight);
+        border-color: var(--secondaryLight);
+    }
+    .btn.mdSecondaryBold.mdHollow,
+    .tag.mdSecondaryBold.mdHollow,
+    .icon.mdSecondaryBold.mdHollow,
+    .icon.mdSecondaryBold.mdHollow i {
+        color: var(--secondaryBold);
+        border-color: var(--secondaryBold);
+    }
+    .btn.mdSuccess.mdHollow,
+    .tag.mdSuccess.mdHollow,
+    .icon.mdSuccess.mdHollow,
+    .icon.mdSuccess.mdHollow i {
+        color: var(--success);
+        border-color: var(--success);
+    }
+    .btn.mdSuccessLight.mdHollow,
+    .tag.mdSuccessLight.mdHollow,
+    .icon.mdSuccessLight.mdHollow,
+    .icon.mdSuccessLight.mdHollow i {
+        color: var(--successLight);
+        border-color: var(--successLight);
+    }
+    .btn.mdSuccessBold.mdHollow,
+    .tag.mdSuccessBold.mdHollow,
+    .icon.mdSuccessBold.mdHollow,
+    .icon.mdSuccessBold.mdHollow i {
+        color: var(--successBold);
+        border-color: var(--successBold);
+    }
+    .btn.mdInfo.mdHollow,
+    .tag.mdInfo.mdHollow,
+    .icon.mdInfo.mdHollow,
+    .icon.mdInfo.mdHollow i {
+        color: var(--info);
+        border-color: var(--info);
+    }
+    .btn.mdInfoLight.mdHollow,
+    .tag.mdInfoLight.mdHollow,
+    .icon.mdInfoLight.mdHollow,
+    .icon.mdInfoLight.mdHollow i {
+        color: var(--infoLight);
+        border-color: var(--infoLight);
+    }
+    .btn.mdInfoBold.mdHollow,
+    .tag.mdInfoBold.mdHollow,
+    .icon.mdInfoBold.mdHollow,
+    .icon.mdInfoBold.mdHollow i {
+        color: var(--infoBold);
+        border-color: var(--infoBold);
+    }
+    .btn.mdWarning.mdHollow,
+    .tag.mdWarning.mdHollow,
+    .icon.mdWarning.mdHollow,
+    .icon.mdWarning.mdHollow i {
+        color: var(--warning);
+        border-color: var(--warning);
+    }
+    .btn.mdWarningLight.mdHollow,
+    .tag.mdWarningLight.mdHollow,
+    .icon.mdWarningLight.mdHollow,
+    .icon.mdWarningLight.mdHollow i {
+        color: var(--warningLight);
+        border-color: var(--warningLight);
+    }
+    .btn.mdWarningBold.mdHollow,
+    .tag.mdWarningBold.mdHollow,
+    .icon.mdWarningBold.mdHollow,
+    .icon.mdWarningBold.mdHollow i {
+        color: var(--warningBold);
+        border-color: var(--warningBold);
+    }
+    .btn.mdDanger.mdHollow,
+    .tag.mdDanger.mdHollow,
+    .icon.mdDanger.mdHollow,
+    .icon.mdDanger.mdHollow i {
+        color: var(--danger);
+        border-color: var(--danger);
+    }
+    .btn.mdDangerLight.mdHollow,
+    .tag.mdDangerLight.mdHollow,
+    .icon.mdDangerLight.mdHollow,
+    .icon.mdDangerLight.mdHollow i {
+        color: var(--dangerLight);
+        border-color: var(--dangerLight);
+    }
+    .btn.mdDangerBold.mdHollow,
+    .tag.mdDangerBold.mdHollow,
+    .icon.mdDangerBold.mdHollow,
+    .icon.mdDangerBold.mdHollow i {
+        color: var(--dangerBold);
+        border-color: var(--dangerBold);
+    }
+    .btn.mdDark.mdHollow,
+    .tag.mdDark.mdHollow,
+    .icon.mdDark.mdHollow,
+    .icon.mdDark.mdHollow i {
+        color: var(--dark);
+        border-color: var(--dark);
+    }
+    .btn.mdDarkLight.mdHollow,
+    .tag.mdDarkLight.mdHollow,
+    .icon.mdDarkLight.mdHollow,
+    .icon.mdDarkLight.mdHollow i {
+        color: var(--darkLight);
+        border-color: var(--darkLight);
+    }
+    .btn.mdDarkBold.mdHollow,
+    .tag.mdDarkBold.mdHollow,
+    .icon.mdDarkBold.mdHollow,
+    .icon.mdDarkBold.mdHollow i {
+        color: var(--darkBold);
+        border-color: var(--darkBold);
+    }
+    .btn.mdStandard.mdBlank,
+    .tag.mdStandard.mdBlank,
+    .icon.mdStandard.mdBlank,
+    .icon.mdStandard.mdBlank i {
+        color: var(--default);
+    }
+    .btn.mdLight.mdBlank,
+    .tag.mdLight.mdBlank,
+    .icon.mdLight.mdBlank,
+    .icon.mdLight.mdBlank i {
+        color: var(--defaultLight);
+    }
+    .btn.mdBold.mdBlank,
+    .tag.mdBold.mdBlank,
+    .icon.mdBold.mdBlank,
+    .icon.mdBold.mdBlank i {
+        color: var(--defaultBold);
+    }
+    .btn.mdPrimary.mdBlank,
+    .tag.mdPrimary.mdBlank,
+    .icon.mdPrimary.mdBlank,
+    .icon.mdPrimary.mdBlank i {
+        color: var(--primary);
+    }
+    .btn.mdPrimaryLight.mdBlank,
+    .tag.mdPrimaryLight.mdBlank,
+    .icon.mdPrimaryLight.mdBlank,
+    .icon.mdPrimaryLight.mdBlank i {
+        color: var(--primaryLight);
+    }
+    .btn.mdPrimaryBold.mdBlank,
+    .tag.mdPrimaryBold.mdBlank,
+    .icon.mdPrimaryBold.mdBlank,
+    .icon.mdPrimaryBold.mdBlank i {
+        color: var(--primaryBold);
+    }
+    .btn.mdSecondary.mdBlank,
+    .tag.mdSecondary.mdBlank,
+    .icon.mdSecondary.mdBlank,
+    .icon.mdSecondary.mdBlank i {
+        color: var(--secondary);
+    }
+    .btn.mdSecondaryLight.mdBlank,
+    .tag.mdSecondaryLight.mdBlank,
+    .icon.mdSecondaryLight.mdBlank,
+    .icon.mdSecondaryLight.mdBlank i {
+        color: var(--secondaryLight);
+    }
+    .btn.mdSecondaryBold.mdBlank,
+    .tag.mdSecondaryBold.mdBlank,
+    .icon.mdSecondaryBold.mdBlank,
+    .icon.mdSecondaryBold.mdBlank i {
+        color: var(--secondaryBold);
+    }
+    .btn.mdSuccess.mdBlank,
+    .tag.mdSuccess.mdBlank,
+    .icon.mdSuccess.mdBlank,
+    .icon.mdSuccess.mdBlank i {
+        color: var(--success);
+    }
+    .btn.mdSuccessLight.mdBlank,
+    .tag.mdSuccessLight.mdBlank,
+    .icon.mdSuccessLight.mdBlank,
+    .icon.mdSuccessLight.mdBlank i {
+        color: var(--successLight);
+    }
+    .btn.mdSuccessBold.mdBlank,
+    .tag.mdSuccessBold.mdBlank,
+    .icon.mdSuccessBold.mdBlank,
+    .icon.mdSuccessBold.mdBlank i {
+        color: var(--successBold);
+    }
+    .btn.mdInfo.mdBlank,
+    .tag.mdInfo.mdBlank,
+    .icon.mdInfo.mdBlank,
+    .icon.mdInfo.mdBlank i {
+        color: var(--info);
+    }
+    .btn.mdInfoLight.mdBlank,
+    .tag.mdInfoLight.mdBlank,
+    .icon.mdInfoLight.mdBlank,
+    .icon.mdInfoLight.mdBlank i {
+        color: var(--infoLight);
+    }
+    .btn.mdInfoBold.mdBlank,
+    .tag.mdInfoBold.mdBlank,
+    .icon.mdInfoBold.mdBlank,
+    .icon.mdInfoBold.mdBlank i {
+        color: var(--infoBold);
+    }
+    .btn.mdWarning.mdBlank,
+    .tag.mdWarning.mdBlank,
+    .icon.mdWarning.mdBlank,
+    .icon.mdWarning.mdBlank i {
+        color: var(--warning);
+    }
+    .btn.mdWarningLight.mdBlank,
+    .tag.mdWarningLight.mdBlank,
+    .icon.mdWarningLight.mdBlank,
+    .icon.mdWarningLight.mdBlank i {
+        color: var(--warningLight);
+    }
+    .btn.mdWarningBold.mdBlank,
+    .tag.mdWarningBold.mdBlank,
+    .icon.mdWarningBold.mdBlank,
+    .icon.mdWarningBold.mdBlank i {
+        color: var(--warningBold);
+    }
+    .btn.mdDanger.mdBlank,
+    .tag.mdDanger.mdBlank,
+    .icon.mdDanger.mdBlank,
+    .icon.mdDanger.mdBlank i {
+        color: var(--danger);
+    }
+    .btn.mdDangerLight.mdBlank,
+    .tag.mdDangerLight.mdBlank,
+    .icon.mdDangerLight.mdBlank,
+    .icon.mdDangerLight.mdBlank i {
+        color: var(--dangerLight);
+    }
+    .btn.mdDangerBold.mdBlank,
+    .tag.mdDangerBold.mdBlank,
+    .icon.mdDangerBold.mdBlank,
+    .icon.mdDangerBold.mdBlank i {
+        color: var(--dangerBold);
+    }
+    .btn.mdDark.mdBlank,
+    .tag.mdDark.mdBlank,
+    .icon.mdDark.mdBlank,
+    .icon.mdDark.mdBlank i {
+        color: var(--dark);
+    }
+    .btn.mdDarkLight.mdBlank,
+    .tag.mdDarkLight.mdBlank,
+    .icon.mdDarkLight.mdBlank,
+    .icon.mdDarkLight.mdBlank i {
+        color: var(--darkLight);
+    }
+    .btn.mdDarkBold.mdBlank,
+    .tag.mdDarkBold.mdBlank,
+    .icon.mdDarkBold.mdBlank,
+    .icon.mdDarkBold.mdBlank i {
+        color: var(--darkBold);
+    }
+    /*================================================================================================================================
+    Images
+    ================================================================================================================================*/
+    .image.mdThumbnail {
+        padding: var(--gap);
+        background-color: var(--default);
+    }
+    .image.mdRounded {
+        border-radius: var(--gap);
+    }
+    .image.mdCircled {
+        border-radius: 50%;
+    }
+    .image.mdSize-16x16 {
+        width: 16px;
+        height: 16px;
+    }
+    .image.mdSize-24x24 {
+        width: 24px;
+        height: 24px;
+    }
+    .image.mdSize-32x32 {
+        width: 32px;
+        height: 32px;
+    }
+    .image.mdSize-48x48 {
+        width: 48px;
+        height: 48px;
+    }
+    .image.mdSize-64x64 {
+        width: 64px;
+        height: 64px;
+    }
+    .image.mdSize-96x96 {
+        width: 96px;
+        height: 96px;
+    }
+    .image.mdSize-128x128 {
+        width: 128px;
+        height: 128px;
+    }
+    .image.mdSize-1x1 {
+        width: 480px;
+        height: 480px;
+    }
+    .image.mdSize-2x1 {
+        width: 640px;
+        height: 320px;
+    }
+    .image.mdSize-3x1 {
+        width: 720px;
+        height: 240px;
+    }
+    .image.mdSize-3x2 {
+        width: 480px;
+        height: 320px;
+    }
+    .image.mdSize-4x3 {
+        width: 640px;
+        height: 480px;
+    }
+    .image.mdSize-5x3 {
+        width: 800px;
+        height: 480px;
+    }
+    .image.mdSize-5x4 {
+        width: 600px;
+        height: 480px;
+    }
+    /*================================================================================================================================
+    Object Fit Types
+    ================================================================================================================================*/
+    .mdObjectCover {
+        object-fit: cover;
+    }
+    .mdObjectContain {
+        object-fit: contain;
+    }
+    .mdObjectFill {
+        object-fit: fill;
+    }
+    .mdObjectTop {
+        object-position: top;
+    }
+    .mdObjectRight {
+        object-position: right;
+    }
+    .mdObjectBottom {
+        object-position: bottom;
+    }
+    .mdObjectLeft {
+        object-position: left;
+    }
+    .mdObjectCenter {
+        object-position: center;
+    }
+    /*================================================================================================================================
+    Backgrounds
+    ================================================================================================================================*/
+    .mdBackTransparent {
+        background-color: transparent !important;
+    }
+    .mdBack {
+        background-color: var(--default) !important;
+    }
+    .mdBackPrimary {
+        background-color: var(--primary) !important;
+    }
+    .mdBackSecondary {
+        background-color: var(--secondary) !important;
+    }
+    .mdBackSuccess {
+        background-color: var(--success) !important;
+    }
+    .mdBackInfo {
+        background-color: var(--info) !important;
+    }
+    .mdBackWarning {
+        background-color: var(--warning) !important;
+    }
+    .mdBackDanger {
+        background-color: var(--danger) !important;
+    }
+    .mdBackDark {
+        background-color: var(--dark) !important;
+    }
+    .mdBackLight {
+        background-color: var(--defaultLight) !important;
+    }
+    .mdBackPrimaryLight {
+        background-color: var(--primaryLight) !important;
+    }
+    .mdBackSecondaryLight {
+        background-color: var(--secondaryLight) !important;
+    }
+    .mdBackSuccessLight {
+        background-color: var(--successLight) !important;
+    }
+    .mdBackInfoLight {
+        background-color: var(--infoLight) !important;
+    }
+    .mdBackWarningLight {
+        background-color: var(--warningLight) !important;
+    }
+    .mdBackDangerLight {
+        background-color: var(--dangerLight) !important;
+    }
+    .mdBackDarkLight {
+        background-color: var(--darkLight) !important;
+    }
+    .mdBackDark {
+        background-color: var(--defaultBold) !important;
+    }
+    .mdBackPrimaryBold {
+        background-color: var(--primaryBold) !important;
+    }
+    .mdBackSecondaryBold {
+        background-color: var(--secondaryBold) !important;
+    }
+    .mdBackSuccessBold {
+        background-color: var(--successBold) !important;
+    }
+    .mdBackInfoBold {
+        background-color: var(--infoBold) !important;
+    }
+    .mdBackWarningBold {
+        background-color: var(--warningBold) !important;
+    }
+    .mdBackDangerBold {
+        background-color: var(--dangerBold) !important;
+    }
+    .mdBackDarkBold {
+        background-color: var(--darkBold) !important;
+    }
+    /*================================================================================================================================
+    Text Aligns
+    ================================================================================================================================*/
+    .mdTextLeft {
+        text-align: left;
+    }
+    .mdTextCenter {
+        text-align: center;
+    }
+    .mdTextRight {
+        text-align: right;
+    }
+    .mdTextJustify {
+        text-align: justify;
+    }
+    /*================================================================================================================================
+    Text Decorations
+    ================================================================================================================================*/
+    .mdTextUnderline {
+        text-decoration: underline;
+    }
+    .mdTextOverline {
+        text-decoration: overline;
+    }
+    .mdTextStrike {
+        text-decoration: line-through;
+    }
+    /*================================================================================================================================
+    Text Colors
+    ================================================================================================================================*/
+    .mdText {
+        color: var(--default) !important;
+    }
+    .mdTextPrimary {
+        color: var(--primary) !important;
+    }
+    .mdTextSecondary {
+        color: var(--secondary) !important;
+    }
+    .mdTextSuccess {
+        color: var(--success) !important;
+    }
+    .mdTextInfo {
+        color: var(--info) !important;
+    }
+    .mdTextWarning {
+        color: var(--warning) !important;
+    }
+    .mdTextDanger {
+        color: var(--danger) !important;
+    }
+    .mdTextDark {
+        color: var(--dark) !important;
+    }
+    .mdTextLight {
+        color: var(--defaultLight) !important;
+    }
+    .mdTextPrimaryLight {
+        color: var(--primaryLight) !important;
+    }
+    .mdTextSecondaryLight {
+        color: var(--secondaryLight) !important;
+    }
+    .mdTextSuccessLight {
+        color: var(--successLight) !important;
+    }
+    .mdTextInfoLight {
+        color: var(--infoLight) !important;
+    }
+    .mdTextWarningLight {
+        color: var(--warningLight) !important;
+    }
+    .mdTextDangerLight {
+        color: var(--dangerLight) !important;
+    }
+    .mdTextDarkLight {
+        color: var(--darkLight) !important;
+    }
+    .mdTextDark {
+        color: var(--defaultBold) !important;
+    }
+    .mdTextPrimaryBold {
+        color: var(--primaryBold) !important;
+    }
+    .mdTextSecondaryBold {
+        color: var(--secondaryBold) !important;
+    }
+    .mdTextSuccessBold {
+        color: var(--successBold) !important;
+    }
+    .mdTextInfoBold {
+        color: var(--infoBold) !important;
+    }
+    .mdTextWarningBold {
+        color: var(--warningBold) !important;
+    }
+    .mdTextDangerBold {
+        color: var(--dangerBold) !important;
+    }
+    .mdTextDarkBold {
+        color: var(--darkBold) !important;
+    }
+    /*================================================================================================================================
+    Text Weights
+    ================================================================================================================================*/
+    .mdWeight-100 {
+        font-weight: 100 !important;
+    }
+    .mdWeight-200 {
+        font-weight: 200 !important;
+    }
+    .mdWeight-300 {
+        font-weight: 300 !important;
+    }
+    .mdWeight-400 {
+        font-weight: 400 !important;
+    }
+    .mdWeight-500 {
+        font-weight: 500 !important;
+    }
+    .mdWeight-600 {
+        font-weight: 600 !important;
+    }
+    .mdWeight-700 {
+        font-weight: 700 !important;
+    }
+    .mdWeight-800 {
+        font-weight: 800 !important;
+    }
+    .mdWeight-900 {
+        font-weight: 900 !important;
+    }
+    /*================================================================================================================================
+    Text Sizes
+    ================================================================================================================================*/
+    .mdSize-8 {
+        font-size: 8px !important;
+    }
+    .mdSize-9 {
+        font-size: 9px !important;
+    }
+    .mdSize-10 {
+        font-size: 10px !important;
+    }
+    .mdSize-11 {
+        font-size: 11px !important;
+    }
+    .mdSize-12 {
+        font-size: 12px !important;
+    }
+    .mdSize-14 {
+        font-size: 14px !important;
+    }
+    .mdSize-16 {
+        font-size: 16px !important;
+    }
+    .mdSize-18 {
+        font-size: 18px !important;
+    }
+    .mdSize-20 {
+        font-size: 20px !important;
+    }
+    .mdSize-22 {
+        font-size: 22px !important;
+    }
+    .mdSize-24 {
+        font-size: 24px !important;
+    }
+    .mdSize-26 {
+        font-size: 26px !important;
+    }
+    .mdSize-28 {
+        font-size: 28px !important;
+    }
+    .mdSize-30 {
+        font-size: 30px !important;
+    }
+    .mdSize-32 {
+        font-size: 32px !important;
+    }
+    .mdSize-34 {
+        font-size: 34px !important;
+    }
+    .mdSize-36 {
+        font-size: 36px !important;
+    }
+    .mdSize-38 {
+        font-size: 38px !important;
+    }
+    .mdSize-40 {
+        font-size: 40px !important;
+    }
+    .mdSize-42 {
+        font-size: 42px !important;
+    }
+    .mdSize-44 {
+        font-size: 44px !important;
+    }
+    .mdSize-46 {
+        font-size: 46px !important;
+    }
+    .mdSize-48 {
+        font-size: 48px !important;
+    }
+    .mdSize-50 {
+        font-size: 50px !important;
+    }
+    .mdSize-52 {
+        font-size: 52px !important;
+    }
+    .mdSize-54 {
+        font-size: 54px !important;
+    }
+    .mdSize-56 {
+        font-size: 56px !important;
+    }
+    .mdSize-58 {
+        font-size: 58px !important;
+    }
+    .mdSize-60 {
+        font-size: 60px !important;
+    }
+    .mdSize-62 {
+        font-size: 62px !important;
+    }
+    .mdSize-64 {
+        font-size: 64px !important;
+    }
+    .mdSize-66 {
+        font-size: 66px !important;
+    }
+    .mdSize-68 {
+        font-size: 68px !important;
+    }
+    .mdSize-70 {
+        font-size: 70px !important;
+    }
+    .mdSize-72 {
+        font-size: 72px !important;
+    }
+    /*================================================================================================================================
+Border Width
+================================================================================================================================*/
+    .mdBorder-0 {
+        border-width: 0px !important;
+    }
+    .mdBorder-1 {
+        border-width: 1px !important;
+    }
+    .mdBorder-2 {
+        border-width: 2px !important;
+    }
+    .mdBorder-3 {
+        border-width: 3px !important;
+    }
+    .mdBorder-4 {
+        border-width: 4px !important;
+    }
+    .mdBorder-5 {
+        border-width: 5px !important;
+    }
+    .mdBorder-6 {
+        border-width: 6px !important;
+    }
+    .mdBorderLeft-0 {
+        border-left-width: 0px !important;
+    }
+    .mdBorderLeft-1 {
+        border-left-width: 1px !important;
+    }
+    .mdBorderLeft-2 {
+        border-left-width: 2px !important;
+    }
+    .mdBorderLeft-3 {
+        border-left-width: 3px !important;
+    }
+    .mdBorderLeft-4 {
+        border-left-width: 4px !important;
+    }
+    .mdBorderLeft-5 {
+        border-left-width: 5px !important;
+    }
+    .mdBorderLeft-6 {
+        border-left-width: 6px !important;
+    }
+    .mdBorderTop-0 {
+        border-top-width: 0px !important;
+    }
+    .mdBorderTop-1 {
+        border-top-width: 1px !important;
+    }
+    .mdBorderTop-2 {
+        border-top-width: 2px !important;
+    }
+    .mdBorderTop-3 {
+        border-top-width: 3px !important;
+    }
+    .mdBorderTop-4 {
+        border-top-width: 4px !important;
+    }
+    .mdBorderTop-5 {
+        border-top-width: 5px !important;
+    }
+    .mdBorderTop-6 {
+        border-top-width: 6px !important;
+    }
+    .mdBorderRight-0 {
+        border-right-width: 0px !important;
+    }
+    .mdBorderRight-1 {
+        border-right-width: 1px !important;
+    }
+    .mdBorderRight-2 {
+        border-right-width: 2px !important;
+    }
+    .mdBorderRight-3 {
+        border-right-width: 3px !important;
+    }
+    .mdBorderRight-4 {
+        border-right-width: 4px !important;
+    }
+    .mdBorderRight-5 {
+        border-right-width: 5px !important;
+    }
+    .mdBorderRight-6 {
+        border-right-width: 6px !important;
+    }
+    .mdBorderBottom-0 {
+        border-bottom-width: 0px !important;
+    }
+    .mdBorderBottom-1 {
+        border-bottom-width: 1px !important;
+    }
+    .mdBorderBottom-2 {
+        border-bottom-width: 2px !important;
+    }
+    .mdBorderBottom-3 {
+        border-bottom-width: 3px !important;
+    }
+    .mdBorderBottom-4 {
+        border-bottom-width: 4px !important;
+    }
+    .mdBorderBottom-5 {
+        border-bottom-width: 5px !important;
+    }
+    .mdBorderBottom-6 {
+        border-bottom-width: 6px !important;
+    }
+    /*================================================================================================================================
+Border Radius
+================================================================================================================================*/
+    .radius-0 {
+        border-radius: 0px !important;
+    }
+    .radius-1 {
+        border-radius: 30px !important;
+    }
+    .radius-2 {
+        border-radius: 25px !important;
+    }
+    .radius-3 {
+        border-radius: 20px !important;
+    }
+    .radius-4 {
+        border-radius: 15px !important;
+    }
+    .radius-5 {
+        border-radius: 10px !important;
+    }
+    .radius-6 {
+        border-radius: 5px !important;
+    }
+    .radiusTopLeft-0 {
+        border-top-left-radius: 0px !important;
+    }
+    .radiusTopLeft-1 {
+        border-top-left-radius: 30px !important;
+    }
+    .radiusTopLeft-2 {
+        border-top-left-radius: 25px !important;
+    }
+    .radiusTopLeft-3 {
+        border-top-left-radius: 20px !important;
+    }
+    .radiusTopLeft-4 {
+        border-top-left-radius: 15px !important;
+    }
+    .radiusTopLeft-5 {
+        border-top-left-radius: 10px !important;
+    }
+    .radiusTopLeft-6 {
+        border-top-left-radius: 5px !important;
+    }
+    .radiusTopRight-0 {
+        border-top-right-radius: 0px !important;
+    }
+    .radiusTopRight-1 {
+        border-top-right-radius: 30px !important;
+    }
+    .radiusTopRight-2 {
+        border-top-right-radius: 25px !important;
+    }
+    .radiusTopRight-3 {
+        border-top-right-radius: 20px !important;
+    }
+    .radiusTopRight-4 {
+        border-top-right-radius: 15px !important;
+    }
+    .radiusTopRight-5 {
+        border-top-right-radius: 10px !important;
+    }
+    .radiusTopRight-6 {
+        border-top-right-radius: 5px !important;
+    }
+    .radiusBottomRight-0 {
+        border-bottom-right-radius: 0px !important;
+    }
+    .radiusBottomRight-1 {
+        border-bottom-right-radius: 30px !important;
+    }
+    .radiusBottomRight-2 {
+        border-bottom-right-radius: 25px !important;
+    }
+    .radiusBottomRight-3 {
+        border-bottom-right-radius: 20px !important;
+    }
+    .radiusBottomRight-4 {
+        border-bottom-right-radius: 15px !important;
+    }
+    .radiusBottomRight-5 {
+        border-bottom-right-radius: 10px !important;
+    }
+    .radiusBottomRight-6 {
+        border-bottom-right-radius: 5px !important;
+    }
+    .radiusBottomLeft-0 {
+        border-bottom-left-radius: 0px !important;
+    }
+    .radiusBottomLeft-1 {
+        border-bottom-left-radius: 30px !important;
+    }
+    .radiusBottom-2 {
+        border-bottom-left-radius: 25px !important;
+    }
+    .radiusBottom-3 {
+        border-bottom-left-radius: 20px !important;
+    }
+    .radiusBottom-4 {
+        border-bottom-left-radius: 15px !important;
+    }
+    .radiusBottom-5 {
+        border-bottom-left-radius: 10px !important;
+    }
+    .radiusBottom-6 {
+        border-bottom-left-radius: 5px !important;
+    }
+    /*================================================================================================================================
+Border Styles
+================================================================================================================================*/
+    .mdBorderDashed {
+        border-style: dashed !important;
+    }
+    .mdBorderDotted {
+        border-style: dotted !important;
+    }
+    .mdBorderDouble {
+        border-style: double !important;
+    }
+    .mdBorderGroove {
+        border-style: groove !important;
+    }
+    .mdBorderHidden {
+        border-style: hidden !important;
+    }
+    .mdBorderInset {
+        border-style: inset !important;
+    }
+    .mdBorderNone {
+        border-style: none !important;
+    }
+    .mdBorderOutset {
+        border-style: outset !important;
+    }
+    .mdBorderRidge {
+        border-style: ridge !important;
+    }
+    .mdBorderSolid {
+        border-style: solid !important;
+    }
+    .mdBorderUnset {
+        border-style: unset !important;
+    }
+    /*================================================================================================================================
+    Border Colors
+    ================================================================================================================================*/
+    .mdBorder {
+        border-color: var(--default) !important;
+    }
+    .mdBorderPrimary {
+        border-color: var(--primary) !important;
+    }
+    .mdBorderSecondary {
+        border-color: var(--secondary) !important;
+    }
+    .mdBorderSuccess {
+        border-color: var(--success) !important;
+    }
+    .mdBorderInfo {
+        border-color: var(--info) !important;
+    }
+    .mdBorderWarning {
+        border-color: var(--warning) !important;
+    }
+    .mdBorderDanger {
+        border-color: var(--danger) !important;
+    }
+    .mdBorderDark {
+        border-color: var(--dark) !important;
+    }
+    .mdBorderLight {
+        border-color: var(--defaultLight) !important;
+    }
+    .mdBorderPrimaryLight {
+        border-color: var(--primaryLight) !important;
+    }
+    .mdBorderSecondaryLight {
+        border-color: var(--secondaryLight) !important;
+    }
+    .mdBorderSuccessLight {
+        border-color: var(--successLight) !important;
+    }
+    .mdBorderInfoLight {
+        border-color: var(--infoLight) !important;
+    }
+    .mdBorderWarningLight {
+        border-color: var(--warningLight) !important;
+    }
+    .mdBorderDangerLight {
+        border-color: var(--dangerLight) !important;
+    }
+    .mdBorderDarkLight {
+        border-color: var(--darkLight) !important;
+    }
+    .mdBorderBold {
+        border-color: var(--defaultBold) !important;
+    }
+    .mdBorderPrimaryBold {
+        border-color: var(--primaryBold) !important;
+    }
+    .mdBorderSecondaryBold {
+        border-color: var(--secondaryBold) !important;
+    }
+    .mdBorderSuccessBold {
+        border-color: var(--successBold) !important;
+    }
+    .mdBorderInfoBold {
+        border-color: var(--infoBold) !important;
+    }
+    .mdBorderWarningBold {
+        border-color: var(--warningBold) !important;
+    }
+    .mdBorderDangerBold {
+        border-color: var(--dangerBold) !important;
+    }
+    .mdBorderDarkBold {
+        border-color: var(--darkBold) !important;
+    }
+    /*================================================================================================================================
+    Paddings
+    ================================================================================================================================*/
+    .mdPadding-0 {
+        padding: 0 !important;
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important;
+    }
+    .mdPaddingX-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .mdPaddingY-0 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .mdPaddingTop-0 {
+        padding-top: 0 !important;
+    }
+    .mdPaddingRight-0 {
+        padding-right: 0 !important;
+    }
+    .mdPaddingBottom-0 {
+        padding-bottom: 0 !important;
+    }
+    .mdPaddingLeft-0 {
+        padding-left: 0 !important;
+    }
+    .mdPadding-1 {
+        padding: 50px !important;
+    }
+    .mdPadding-2 {
+        padding: 40px !important;
+    }
+    .mdPadding-3 {
+        padding: 30px !important;
+    }
+    .mdPadding-4 {
+        padding: 20px !important;
+    }
+    .mdPadding-5 {
+        padding: 10px !important;
+    }
+    .mdPadding-6 {
+        padding: 5px !important;
+    }
+    .mdPaddingX-1 {
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+    .mdPaddingX-2 {
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+    .mdPaddingX-3 {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+    .mdPaddingX-4 {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .mdPaddingX-5 {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+    .mdPaddingX-6 {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .mdPaddingY-1 {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .mdPaddingY-2 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    .mdPaddingY-3 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .mdPaddingY-4 {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .mdPaddingY-5 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .mdPaddingY-6 {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    .mdPaddingTop-1 {
+        padding-top: 50px !important;
+    }
+    .mdPaddingTop-2 {
+        padding-top: 40px !important;
+    }
+    .mdPaddingTop-3 {
+        padding-top: 30px !important;
+    }
+    .mdPaddingTop-4 {
+        padding-top: 20px !important;
+    }
+    .mdPaddingTop-5 {
+        padding-top: 10px !important;
+    }
+    .mdPaddingTop-6 {
+        padding-top: 5px !important;
+    }
+    .mdPaddingRight-1 {
+        padding-right: 50px !important;
+    }
+    .mdPaddingRight-2 {
+        padding-right: 40px !important;
+    }
+    .mdPaddingRight-3 {
+        padding-right: 30px !important;
+    }
+    .mdPaddingRight-4 {
+        padding-right: 20px !important;
+    }
+    .mdPaddingRight-5 {
+        padding-right: 10px !important;
+    }
+    .mdPaddingRight-6 {
+        padding-right: 5px !important;
+    }
+    .mdPaddingBottom-1 {
+        padding-bottom: 50px !important;
+    }
+    .mdPaddingBottom-2 {
+        padding-bottom: 40px !important;
+    }
+    .mdPaddingBottom-3 {
+        padding-bottom: 30px !important;
+    }
+    .mdPaddingBottom-4 {
+        padding-bottom: 20px !important;
+    }
+    .mdPaddingBottom-5 {
+        padding-bottom: 10px !important;
+    }
+    .mdPaddingBottom-6 {
+        padding-bottom: 5px !important;
+    }
+    .mdPaddingLeft-1 {
+        padding-left: 50px !important;
+    }
+    .mdPaddingLeft-2 {
+        padding-left: 40px !important;
+    }
+    .mdPaddingLeft-3 {
+        padding-left: 30px !important;
+    }
+    .mdPaddingLeft-4 {
+        padding-left: 20px !important;
+    }
+    .mdPaddingLeft-5 {
+        padding-left: 10px !important;
+    }
+    .mdPaddingLeft-6 {
+        padding-left: 5px !important;
+    }
+    /*================================================================================================================================
+    Margins
+    ================================================================================================================================*/
+    .mdMargin-0 {
+        margin: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+    }
+    .mdMarginX-0 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .mdMarginY-0 {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .mdMarginTop-0 {
+        margin-top: 0 !important;
+    }
+    .mdMarginRight-0 {
+        margin-right: 0 !important;
+    }
+    .mdMarginBottom-0 {
+        margin-bottom: 0 !important;
+    }
+    .mdMarginLeft-0 {
+        margin-left: 0 !important;
+    }
+    .mdMargin-1 {
+        margin: 50px !important;
+    }
+    .mdMargin-2 {
+        margin: 40px !important;
+    }
+    .mdMargin-3 {
+        margin: 30px !important;
+    }
+    .mdMargin-4 {
+        margin: 20px !important;
+    }
+    .mdMargin-5 {
+        margin: 10px !important;
+    }
+    .mdMargin-6 {
+        margin: 5px !important;
+    }
+    .mdMarginX-1 {
+        margin-right: 50px !important;
+        margin-left: 50px !important;
+    }
+    .mdMarginX-2 {
+        margin-right: 40px !important;
+        margin-left: 40px !important;
+    }
+    .mdMarginX-3 {
+        margin-right: 30px !important;
+        margin-left: 30px !important;
+    }
+    .mdMarginX-4 {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+    .mdMarginX-5 {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+    .mdMarginX-6 {
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+    }
+    .mdMarginY-1 {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .mdMarginY-2 {
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    .mdMarginY-3 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .mdMarginY-4 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .mdMarginY-5 {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .mdMarginY-6 {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .mdMarginTop-1 {
+        margin-top: 50px !important;
+    }
+    .mdMarginTop-2 {
+        margin-top: 40px !important;
+    }
+    .mdMarginTop-3 {
+        margin-top: 30px !important;
+    }
+    .mdMarginTop-4 {
+        margin-top: 20px !important;
+    }
+    .mdMarginTop-5 {
+        margin-top: 10px !important;
+    }
+    .mdMarginTop-6 {
+        margin-top: 5px !important;
+    }
+    .mdMarginRight-1 {
+        margin-right: 50px !important;
+    }
+    .mdMarginRight-2 {
+        margin-right: 40px !important;
+    }
+    .mdMarginRight-3 {
+        margin-right: 30px !important;
+    }
+    .mdMarginRight-4 {
+        margin-right: 20px !important;
+    }
+    .mdMarginRight-5 {
+        margin-right: 10px !important;
+    }
+    .mdMarginRight-6 {
+        margin-right: 5px !important;
+    }
+    .mdMarginBottom-1 {
+        margin-bottom: 50px !important;
+    }
+    .mdMarginBottom-2 {
+        margin-bottom: 40px !important;
+    }
+    .mdMarginBottom-3 {
+        margin-bottom: 30px !important;
+    }
+    .mdMarginBottom-4 {
+        margin-bottom: 20px !important;
+    }
+    .mdMarginBottom-5 {
+        margin-bottom: 10px !important;
+    }
+    .mdMarginBottom-6 {
+        margin-bottom: 5px !important;
+    }
+    .mdMarginLeft-1 {
+        margin-left: 50px !important;
+    }
+    .mdMarginLeft-2 {
+        margin-left: 40px !important;
+    }
+    .mdMarginLeft-3 {
+        margin-left: 30px !important;
+    }
+    .mdMarginLeft-4 {
+        margin-left: 20px !important;
+    }
+    .mdMarginLeft-5 {
+        margin-left: 10px !important;
+    }
+    .mdMarginLeft-6 {
+        margin-left: 5px !important;
+    }
+}

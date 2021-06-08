@@ -1,0 +1,21 @@
+{
+    "short_name": "WAM",
+    "name": "Web App Manifest",
+    "theme_color": "#007bff",
+    "background_color": "#bfdeff",
+    "display": "standalone",
+    "start_url": "",
+    "Scope": "",
+    "icons": [{
+            "src": "../assets/logo192x192.png",
+            "purpose": "any maskable",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "../assets/logo512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="./assets/logo192x192.png" />
+    <link rel="stylesheet" href="./src/styles/XOFont/style.css" />
+    <link rel="stylesheet" href="./src/styles/src/XO.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="manifest" href="./src/manifest.json" />
+    <meta name="theme-color" content="#007bff" />
+</head>
+
+<body>
+    <xo-search theme="night" placeholder="Search Link" routes='{
+        Accordion: "/accordion",
+        Alert: "/alert",
+        Badge: "/badge",
+        Box: "/box",
+        Button: "/button",
+        Card: "/card",
+        Charts: "/charts",
+        Navbar: "/navbar",
+        Progress: "/progress",
+        Range: "/range",
+        Richtext: "/richtext",
+        Signin: "/signin",
+        Signup: "/signup",
+        Slider: "/slider",
+        Switch: "/switch",
+        Test: "/test",
+        Textfield: "/textfield"
+    }'></xo-search>
+    <xo-app></xo-app>
+    <noscript>JAVASCRIP IS REQUIRED FOR THIS APP TO WORK</noscript>
+    <script src="./src/scripts/XO.Pwa.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>

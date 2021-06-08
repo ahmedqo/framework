@@ -1,0 +1,2330 @@
+@media (max-width: 991.98px) {
+    .nav.lgPrimary,
+    .btn.lgPrimary,
+    .tag.lgPrimary,
+    .box.lgPrimary,
+    .icon.lgPrimary *,
+    .alert.lgPrimary,
+    .banner.lgPrimary,
+    .nav.lgSecondary,
+    .btn.lgSecondary,
+    .tag.lgSecondary,
+    .box.lgSecondary,
+    .icon.lgSecondary *,
+    .alert.lgSecondary,
+    .banner.lgSecondary,
+    .nav.lgSuccess,
+    .btn.lgSuccess,
+    .tag.lgSuccess,
+    .box.lgSuccess,
+    .icon.lgSuccess *,
+    .alert.lgSuccess,
+    .banner.lgSuccess,
+    .nav.lgInfo,
+    .btn.lgInfo,
+    .tag.lgInfo,
+    .box.lgInfo,
+    .icon.lgInfo *,
+    .alert.lgInfo,
+    .banner.lgInfo,
+    .nav.lgDanger,
+    .btn.lgDanger,
+    .tag.lgDanger,
+    .box.lgDanger,
+    .icon.lgDanger *,
+    .alert.lgDanger,
+    .banner.lgDanger,
+    .nav.lgDark,
+    .btn.lgDark,
+    .tag.lgDark,
+    .box.lgDark,
+    .icon.lgDark *,
+    .alert.lgDark,
+    .banner.lgDark,
+    .nav.lgBold,
+    .btn.lgBold,
+    .tag.lgBold,
+    .box.lgBold,
+    .icon.lgBold *,
+    .alert.lgBold,
+    .banner.lgBold,
+    .nav.lgPrimaryBold,
+    .btn.lgPrimaryBold,
+    .tag.lgPrimaryBold,
+    .box.lgPrimaryBold,
+    .icon.lgPrimaryBold *,
+    .alert.lgPrimaryBold,
+    .banner.lgPrimaryBold,
+    .nav.lgSecondaryBold,
+    .btn.lgSecondaryBold,
+    .tag.lgSecondaryBold,
+    .box.lgSecondaryBold,
+    .icon.lgSecondaryBold *,
+    .alert.lgSecondaryBold,
+    .banner.lgSecondaryBold,
+    .nav.lgSuccessBold,
+    .btn.lgSuccessBold,
+    .tag.lgSuccessBold,
+    .box.lgSuccessBold,
+    .icon.lgSuccessBold *,
+    .alert.lgSuccessBold,
+    .banner.lgSuccessBold,
+    .nav.lgInfoBold,
+    .btn.lgInfoBold,
+    .tag.lgInfoBold,
+    .box.lgInfoBold,
+    .icon.lgInfoBold *,
+    .alert.lgInfoBold,
+    .banner.lgInfoBold,
+    .nav.lgWarningBold,
+    .btn.lgWarningBold,
+    .tag.lgWarningBold,
+    .box.lgWarningBold,
+    .icon.lgWarningBold *,
+    .alert.lgWarningBold,
+    .banner.lgWarningBold,
+    .nav.lgDangerBold,
+    .btn.lgDangerBold,
+    .tag.lgDangerBold,
+    .box.lgDangerBold,
+    .icon.lgDangerBold *,
+    .alert.lgDangerBold,
+    .banner.lgDangerBold,
+    .nav.lgDarkBold,
+    .btn.lgDarkBold,
+    .tag.lgDarkBold,
+    .box.lgDarkBold,
+    .icon.lgDarkBold *,
+    .alert.lgDarkBold,
+    .banner.lgDarkBold {
+        color: #ffffff;
+    }
+    .nav.lgLight,
+    .btn.lgLight,
+    .tag.lgLight,
+    .box.lgLight,
+    .icon.lgLight *,
+    .alert.lgLight,
+    .banner.lgLight,
+    .nav.lgPrimaryLight,
+    .btn.lgPrimaryLight,
+    .tag.lgPrimaryLight,
+    .box.lgPrimaryLight,
+    .icon.lgPrimaryLight *,
+    .alert.lgPrimaryLight,
+    .banner.lgPrimaryLight,
+    .nav.lgSecondaryLight,
+    .btn.lgSecondaryLight,
+    .tag.lgSecondaryLight,
+    .box.lgSecondaryLight,
+    .icon.lgSecondaryLight *,
+    .alert.lgSecondaryLight,
+    .banner.lgSecondaryLight,
+    .nav.lgSuccessLight,
+    .btn.lgSuccessLight,
+    .tag.lgSuccessLight,
+    .box.lgSuccessLight,
+    .icon.lgSuccessLight *,
+    .alert.lgSuccessLight,
+    .banner.lgSuccessLight,
+    .nav.lgInfoLight,
+    .btn.lgInfoLight,
+    .tag.lgInfoLight,
+    .box.lgInfoLight,
+    .icon.lgInfoLight *,
+    .alert.lgInfoLight,
+    .banner.lgInfoLight,
+    .nav.lgWarningLight,
+    .btn.lgWarningLight,
+    .tag.lgWarningLight,
+    .box.lgWarningLight,
+    .icon.lgWarningLight *,
+    .alert.lgWarningLight,
+    .banner.lgWarningLight,
+    .nav.lgDangerLight,
+    .btn.lgDangerLight,
+    .tag.lgDangerLight,
+    .box.lgDangerLight,
+    .icon.lgDangerLight *,
+    .alert.lgDangerLight,
+    .banner.lgDangerLight,
+    .nav.lgDarkLight,
+    .btn.lgDarkLight,
+    .tag.lgDarkLight,
+    .box.lgDarkLight,
+    .icon.lgDarkLight *,
+    .alert.lgDarkLight,
+    .banner.lgDarkLight,
+    .nav.lgStandard,
+    .btn.lgStandard,
+    .tag.lgStandard,
+    .box.lgStandard,
+    .icon.lgStandard *,
+    .alert.lgStandard,
+    .banner.lgStandard,
+    .nav.lgWarning,
+    .btn.lgWarning,
+    .tag.lgWarning,
+    .box.lgWarning,
+    .icon.lgWarning *,
+    .alert.lgWarning,
+    .banner.lgWarning {
+        color: #1d1d1d;
+    }
+    .btn.lgLarge,
+    .tag.lgLarge,
+    .formbox.lgLarge {
+        padding: 4px 12px;
+        font-size: 26px;
+    }
+    .btn.lgStandard,
+    .tag.lgStandard,
+    .formbox.lgStandard {
+        padding: 3.5px 10.5px;
+        font-size: 22px;
+    }
+    .btn.lgMedium,
+    .tag.lgMedium,
+    .formbox.lgMedium {
+        padding: 3px 9px;
+        font-size: 18px;
+    }
+    .btn.lgSmall,
+    .tag.lgSmall,
+    .formbox.lgSmall {
+        padding: 2.5px 7.5px;
+        font-size: 14px;
+    }
+    .icon.lgLarge,
+    .icon.lgLarge * {
+        width: 42px;
+        height: 42px;
+        font-size: 22px;
+    }
+    .icon.lgStandard,
+    .icon.lgStandard * {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+    .icon.lgMedium,
+    .icon.lgMedium * {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .icon.lgSmall,
+    .icon.lgSmall * {
+        width: 24px;
+        height: 24px;
+        font-size: 10px;
+    }
+    .btn.lgHollow,
+    .tag.lgHollow,
+    .icon.lgHollow,
+    .icon.lgHollow i {
+        background-color: transparent !important;
+    }
+    .btn.lgBlank,
+    .tag.lgBlank,
+    .icon.lgBlank,
+    .icon.lgBlank i {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+    /*================================================================================================================================
+    Divs Grid System
+    ================================================================================================================================*/
+    .lgShow {
+        display: initial;
+    }
+    .lgHide {
+        display: none;
+    }
+    .block.lgCollapse,
+    .block.lgCollapse>[class*="col"] {
+        padding: 0;
+    }
+    .lgColMax {
+        width: max-content;
+    }
+    .lgCol-12 {
+        width: calc(var(--col) * 12);
+    }
+    .lgCol-11 {
+        width: calc(var(--col) * 11);
+    }
+    .lgCol-10 {
+        width: calc(var(--col) * 10);
+    }
+    .lgCol-9 {
+        width: calc(var(--col) * 9);
+    }
+    .lgCol-8 {
+        width: calc(var(--col) * 8);
+    }
+    .lgCol-7 {
+        width: calc(var(--col) * 7);
+    }
+    .lgCol-6 {
+        width: calc(var(--col) * 6);
+    }
+    .lgCol-5 {
+        width: calc(var(--col) * 5);
+    }
+    .lgCol-4 {
+        width: calc(var(--col) * 4);
+    }
+    .lgCol-3 {
+        width: calc(var(--col) * 3);
+    }
+    .lgCol-2 {
+        width: calc(var(--col) * 2);
+    }
+    .lgCol-1 {
+        width: calc(var(--col) * 1);
+    }
+    .lgCol {
+        flex: 1;
+    }
+    /*================================================================================================================================
+    Divs Breaks
+    ================================================================================================================================*/
+    .lgBreak-1 {
+        height: 50px;
+    }
+    .lgBreak-2 {
+        height: 40px;
+    }
+    .lgBreak-3 {
+        height: 30px;
+    }
+    .lgBreak-4 {
+        height: 20px;
+    }
+    .lgBreak-5 {
+        height: 10px;
+    }
+    .lgBreak-6 {
+        height: 5px;
+    }
+    /*================================================================================================================================
+    Divs Flex Order
+    ================================================================================================================================*/
+    .lgOrder-1 {
+        order: -1;
+    }
+    .lgOrder-2 {
+        order: 2;
+    }
+    .lgOrder-3 {
+        order: 3;
+    }
+    .lgOrder-4 {
+        order: 4;
+    }
+    .lgOrder-5 {
+        order: 5;
+    }
+    .lgOrder-6 {
+        order: 6;
+    }
+    .lgOrder-7 {
+        order: 7;
+    }
+    .lgOrder-8 {
+        order: 8;
+    }
+    .lgOrder-9 {
+        order: 9;
+    }
+    .lgOrder-10 {
+        order: 10;
+    }
+    .lgOrder-11 {
+        order: 11;
+    }
+    .lgOrder-12 {
+        order: 12;
+    }
+    /*================================================================================================================================
+    Divs Full Size
+    ================================================================================================================================*/
+    .lgFull {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 100vh;
+    }
+    .lgFullX {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .lgFullY {
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 100vh;
+    }
+    /*================================================================================================================================
+    Divs Flex Position
+    ================================================================================================================================*/
+    .lgCenter {
+        align-items: center;
+        justify-content: center;
+    }
+    .lgStart {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .lgEnd {
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    /*================================================================================================================================
+    Divs Flex Justify Content
+    ================================================================================================================================*/
+    .lgContentStartX {
+        justify-content: flex-start;
+    }
+    .lgContentCenterX {
+        justify-content: center;
+    }
+    .lgContentEndX {
+        justify-content: flex-end;
+    }
+    .lgContentBetweenX {
+        justify-content: space-between;
+    }
+    .lgContentAroundX {
+        justify-content: space-around;
+    }
+    .lgContentEvenlyX {
+        justify-content: space-evenly;
+    }
+    /*================================================================================================================================
+    Divs Flex Align Content
+    ================================================================================================================================*/
+    .lgContentStartY {
+        align-content: flex-start;
+    }
+    .lgContentCenterY {
+        align-content: center;
+    }
+    .lgContentEndY {
+        align-content: flex-end;
+    }
+    .lgContentBetweenY {
+        align-content: space-between;
+    }
+    .lgContentAroundY {
+        align-content: space-around;
+    }
+    .lgContentEvenlyY {
+        align-content: space-evenly;
+    }
+    /*================================================================================================================================
+    Divs Flex Align Slef
+    ================================================================================================================================*/
+    .lgSelfStart {
+        align-self: flex-start;
+    }
+    .lgSelfCenter {
+        align-self: center;
+    }
+    .lgSelfEnd {
+        align-self: flex-end;
+    }
+    .lgSelfBetween {
+        align-self: space-between;
+    }
+    .lgSelfAround {
+        align-self: space-around;
+    }
+    .lgSelfEvenly {
+        align-self: space-evenly;
+    }
+    /*================================================================================================================================
+    Divs Flex Align Items
+    ================================================================================================================================*/
+    .lgItemsStart {
+        align-items: flex-start;
+    }
+    .lgItemsCenter {
+        align-items: center;
+    }
+    .lgItemsEnd {
+        align-items: flex-end;
+    }
+    .lgItemsStretch {
+        align-items: stretch;
+    }
+    /*================================================================================================================================
+    Divs Positions
+    ================================================================================================================================*/
+    .lgPositionFixed {
+        position: fixed;
+    }
+    .lgPositionAbsolute {
+        position: absolute;
+    }
+    .lgPositionRelative {
+        position: relative;
+    }
+    .lgPositionSticky {
+        position: sticky;
+    }
+    .lgPositionTop {
+        top: 0;
+    }
+    .lgPositionRight {
+        right: 0;
+    }
+    .lgPositionBottom {
+        bottom: 0;
+    }
+    .lgPositionLeft {
+        left: 0;
+    }
+    .lgPositionTopLeft {
+        top: 0;
+        left: 0;
+    }
+    .lgPositionTopRight {
+        top: 0;
+        right: 0;
+    }
+    .lgPositionBottomRight {
+        right: 0;
+        bottom: 0;
+    }
+    .lgPositionBottomLeft {
+        bottom: 0;
+        left: 0;
+    }
+    .lgPositionCenter {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .lgPositionTopCenter {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .lgPositionRightCenter {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .lgPositionBottomCenter {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .lgPositionLeftCenter {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    /*================================================================================================================================
+    Headers
+    ================================================================================================================================*/
+    .lgHeader-1 {
+        font-size: 80px;
+    }
+    .lgHeader-2 {
+        font-size: 68px;
+    }
+    .lgHeader-3 {
+        font-size: 56px;
+    }
+    .lgHeader-4 {
+        font-size: 44px;
+    }
+    .lgHeader-5 {
+        font-size: 32px;
+    }
+    .lgHeader-6 {
+        font-size: 20px;
+    }
+    /*================================================================================================================================
+    Sub Headers
+    ================================================================================================================================*/
+    .lgSubHeader-1 {
+        font-size: 72px;
+    }
+    .lgSubHeader-2 {
+        font-size: 60px;
+    }
+    .lgSubHeader-3 {
+        font-size: 48px;
+    }
+    .lgSubHeader-4 {
+        font-size: 36px;
+    }
+    .lgSubHeader-5 {
+        font-size: 24px;
+    }
+    .lgSubHeader-6 {
+        font-size: 12px;
+    }
+    /*================================================================================================================================
+    Displays
+    ================================================================================================================================*/
+    .lgDisplay-1 {
+        font-size: 200px;
+    }
+    .lgDisplay-2 {
+        font-size: 170px;
+    }
+    .lgDisplay-3 {
+        font-size: 140px;
+    }
+    .lgDisplay-4 {
+        font-size: 110px;
+    }
+    .lgDisplay-5 {
+        font-size: 80px;
+    }
+    .lgDisplay-6 {
+        font-size: 50px;
+    }
+    /*================================================================================================================================
+    All
+    ================================================================================================================================*/
+    .btn.lgStandard,
+    .tag.lgStandard,
+    .icon.lgStandard {
+        border-color: var(--default);
+    }
+    .btn.lgLight,
+    .tag.lgLight,
+    .icon.lgLight {
+        border-color: var(--defaultLight);
+    }
+    .btn.lgBold,
+    .tag.lgBold,
+    .icon.lgBold {
+        border-color: var(--defaultBold);
+    }
+    .btn.lgPrimary,
+    .tag.lgPrimary,
+    .icon.lgPrimary {
+        border-color: var(--primary);
+    }
+    .btn.lgPrimaryLight,
+    .tag.lgPrimaryLight,
+    .icon.lgPrimaryLight {
+        border-color: var(--primaryLight);
+    }
+    .btn.lgPrimaryBold,
+    .tag.lgPrimaryBold,
+    .icon.lgPrimaryBold {
+        border-color: var(--primaryBold);
+    }
+    .btn.lgSecondary,
+    .tag.lgSecondary,
+    .icon.lgSecondary {
+        border-color: var(--secondary);
+    }
+    .btn.lgSecondaryLight,
+    .tag.lgSecondaryLight,
+    .icon.lgSecondaryLight {
+        border-color: var(--secondaryLight);
+    }
+    .btn.lgSecondaryBold,
+    .tag.lgSecondaryBold,
+    .icon.lgSecondaryBold {
+        border-color: var(--secondaryBold);
+    }
+    .btn.lgSuccess,
+    .tag.lgSuccess,
+    .icon.lgSuccess {
+        border-color: var(--success);
+    }
+    .btn.lgSuccessLight,
+    .tag.lgSuccessLight,
+    .icon.lgSuccessLight {
+        border-color: var(--successLight);
+    }
+    .btn.lgSuccessBold,
+    .tag.lgSuccessBold,
+    .icon.lgSuccessBold {
+        border-color: var(--successBold);
+    }
+    .btn.lgInfo,
+    .tag.lgInfo,
+    .icon.lgInfo {
+        border-color: var(--info);
+    }
+    .btn.lgInfoLight,
+    .tag.lgInfoLight,
+    .icon.lgInfoLight {
+        border-color: var(--infoLight);
+    }
+    .btn.lgInfoBold,
+    .tag.lgInfoBold,
+    .icon.lgInfoBold {
+        border-color: var(--infoBold);
+    }
+    .btn.lgWarning,
+    .tag.lgWarning,
+    .icon.lgWarning {
+        border-color: var(--warning);
+    }
+    .btn.lgWarningLight,
+    .tag.lgWarningLight,
+    .icon.lgWarningLight {
+        border-color: var(--warningLight);
+    }
+    .btn.lgWarningBold,
+    .tag.lgWarningBold,
+    .icon.lgWarningBold {
+        border-color: var(--warningBold);
+    }
+    .btn.lgDanger,
+    .tag.lgDanger,
+    .icon.lgDanger {
+        border-color: var(--danger);
+    }
+    .btn.lgDangerLight,
+    .tag.lgDangerLight,
+    .icon.lgDangerLight {
+        border-color: var(--dangerLight);
+    }
+    .btn.lgDangerBold,
+    .tag.lgDangerBold,
+    .icon.lgDangerBold {
+        border-color: var(--dangerBold);
+    }
+    .btn.lgDark,
+    .tag.lgDark,
+    .icon.lgDark {
+        border-color: var(--dark);
+    }
+    .btn.lgDarkLight,
+    .tag.lgDarkLight,
+    .icon.lgDarkLight {
+        border-color: var(--darkLight);
+    }
+    .btn.lgDarkBold,
+    .tag.lgDarkBold,
+    .icon.lgDarkBold {
+        border-color: var(--darkBold);
+    }
+    .nav.lgStandard,
+    .btn.lgStandard,
+    .tag.lgStandard,
+    .box.lgStandard,
+    .icon.lgStandard,
+    .alert.lgStandard,
+    .banner.lgStandard {
+        background-color: var(--default);
+    }
+    .nav.lgPrimary,
+    .btn.lgPrimary,
+    .tag.lgPrimary,
+    .box.lgPrimary,
+    .icon.lgPrimary,
+    .alert.lgPrimary,
+    .banner.lgPrimary {
+        background-color: var(--primary);
+    }
+    .nav.lgSecondary,
+    .btn.lgSecondary,
+    .tag.lgSecondary,
+    .box.lgSecondary,
+    .icon.lgSecondary,
+    .alert.lgSecondary,
+    .banner.lgSecondary {
+        background-color: var(--secondary);
+    }
+    .nav.lgSuccess,
+    .btn.lgSuccess,
+    .tag.lgSuccess,
+    .box.lgSuccess,
+    .icon.lgSuccess,
+    .alert.lgSuccess,
+    .banner.lgSuccess {
+        background-color: var(--success);
+    }
+    .nav.lgInfo,
+    .btn.lgInfo,
+    .tag.lgInfo,
+    .box.lgInfo,
+    .icon.lgInfo,
+    .alert.lgInfo,
+    .banner.lgInfo {
+        background-color: var(--info);
+    }
+    .nav.lgWarning,
+    .btn.lgWarning,
+    .tag.lgWarning,
+    .box.lgWarning,
+    .icon.lgWarning,
+    .alert.lgWarning,
+    .banner.lgWarning {
+        background-color: var(--warning);
+    }
+    .nav.lgDanger,
+    .btn.lgDanger,
+    .tag.lgDanger,
+    .box.lgDanger,
+    .icon.lgDanger,
+    .alert.lgDanger,
+    .banner.lgDanger {
+        background-color: var(--danger);
+    }
+    .nav.lgDark,
+    .btn.lgDark,
+    .tag.lgDark,
+    .box.lgDark,
+    .icon.lgDark,
+    .alert.lgDark,
+    .banner.lgDark {
+        background-color: var(--dark);
+    }
+    .nav.lgLight,
+    .btn.lgLight,
+    .tag.lgLight,
+    .box.lgLight,
+    .icon.lgLight,
+    .alert.lgLight,
+    .banner.lgLight {
+        background-color: var(--defaultLight);
+    }
+    .nav.lgPrimaryLight,
+    .btn.lgPrimaryLight,
+    .tag.lgPrimaryLight,
+    .box.lgPrimaryLight,
+    .icon.lgPrimaryLight,
+    .alert.lgPrimaryLight,
+    .banner.lgPrimaryLight {
+        background-color: var(--primaryLight);
+    }
+    .nav.lgSecondaryLight,
+    .btn.lgSecondaryLight,
+    .tag.lgSecondaryLight,
+    .box.lgSecondaryLight,
+    .icon.lgSecondaryLight,
+    .alert.lgSecondaryLight,
+    .banner.lgSecondaryLight {
+        background-color: var(--secondaryLight);
+    }
+    .nav.lgSuccessLight,
+    .btn.lgSuccessLight,
+    .tag.lgSuccessLight,
+    .box.lgSuccessLight,
+    .icon.backSuccessLight,
+    .alert.lgSuccessLight,
+    .banner.lgSuccessLight {
+        background-color: var(--successLight);
+    }
+    .nav.lgInfoLight,
+    .btn.lgInfoLight,
+    .tag.lgInfoLight,
+    .box.lgInfoLight,
+    .icon.lgInfoLight,
+    .alert.lgInfoLight,
+    .banner.lgInfoLight {
+        background-color: var(--infoLight);
+    }
+    .nav.lgWarningLight,
+    .btn.lgWarningLight,
+    .tag.lgWarningLight,
+    .box.lgWarningLight,
+    .icon.lgWarningLight,
+    .alert.lgWarningLight,
+    .banner.lgWarningLight {
+        background-color: var(--warningLight);
+    }
+    .nav.lgDangerLight,
+    .btn.lgDangerLight,
+    .tag.lgDangerLight,
+    .box.lgDangerLight,
+    .icon.lgDangerLight,
+    .alert.lgDangerLight,
+    .banner.lgDangerLight {
+        background-color: var(--dangerLight);
+    }
+    .nav.lgDarkLight,
+    .btn.lgDarkLight,
+    .tag.lgDarkLight,
+    .box.lgDarkLight,
+    .icon.lgDarkLight,
+    .alert.lgDarkLight,
+    .banner.lgDarkLight {
+        background-color: var(--darkLight);
+    }
+    .nav.lgBold,
+    .btn.lgBold,
+    .tag.lgBold,
+    .box.lgBold,
+    .icon.lgBold,
+    .alert.lgBold,
+    .banner.lgBold {
+        background-color: var(--defaultBold);
+    }
+    .nav.lgPrimaryBold,
+    .btn.lgPrimaryBold,
+    .tag.lgPrimaryBold,
+    .box.lgPrimaryBold,
+    .icon.lgPrimaryBold,
+    .alert.lgPrimaryBold,
+    .banner.lgPrimaryBold {
+        background-color: var(--primaryBold);
+    }
+    .nav.lgSecondaryBold,
+    .btn.lgSecondaryBold,
+    .tag.lgSecondaryBold,
+    .box.lgSecondaryBold,
+    .icon.lgSecondaryBold,
+    .alert.lgSecondaryBold,
+    .banner.lgSecondaryBold {
+        background-color: var(--secondaryBold);
+    }
+    .nav.lgSuccessBold,
+    .btn.lgSuccessBold,
+    .tag.lgSuccessBold,
+    .box.lgSuccessBold,
+    .icon.lgSuccessBold,
+    .alert.lgSuccessBold,
+    .banner.lgSuccessBold {
+        background-color: var(--successBold);
+    }
+    .nav.lgInfoBold,
+    .btn.lgInfoBold,
+    .tag.lgInfoBold,
+    .box.lgInfoBold,
+    .icon.lgInfoBold,
+    .alert.lgInfoBold,
+    .banner.lgInfoBold {
+        background-color: var(--infoBold);
+    }
+    .nav.lgWarningBold,
+    .btn.lgWarningBold,
+    .tag.lgWarningBold,
+    .box.lgWarningBold,
+    .icon.lgWarningBold,
+    .alert.lgWarningBold,
+    .banner.lgWarningBold {
+        background-color: var(--warningBold);
+    }
+    .nav.lgDangerBold,
+    .btn.lgDangerBold,
+    .tag.lgDangerBold,
+    .box.lgDangerBold,
+    .icon.lgDangerBold,
+    .alert.lgDangerBold,
+    .banner.lgDangerBold {
+        background-color: var(--dangerBold);
+    }
+    .nav.lgDarkBold,
+    .btn.lgDarkBold,
+    .tag.lgDarkBold,
+    .box.lgDarkBold,
+    .icon.lgDarkBold,
+    .alert.lgDarkBold,
+    .banner.lgDarkBold {
+        background-color: var(--darkBold);
+    }
+    .btn.lgPill,
+    .tag.lgPill,
+    .icon.lgRounded,
+    .formbox.lgPill,
+    .formrow.lgPill {
+        border-radius: 100px;
+    }
+    .btn.lgStandard.lgHollow,
+    .tag.lgStandard.lgHollow,
+    .icon.lgStandard.lgHollow,
+    .icon.lgStandard.lgHollow i {
+        color: var(--default);
+        border-color: var(--default);
+    }
+    .btn.lgLight.lgHollow,
+    .tag.lgLight.lgHollow,
+    .icon.lgLight.lgHollow,
+    .icon.lgLight.lgHollow i {
+        color: var(--defaultLight);
+        border-color: var(--defaultLight);
+    }
+    .btn.lgBold.lgHollow,
+    .tag.lgBold.lgHollow,
+    .icon.lgBold.lgHollow,
+    .icon.lgBold.lgHollow i {
+        color: var(--defaultBold);
+        border-color: var(--defaultBold);
+    }
+    .btn.lgPrimary.lgHollow,
+    .tag.lgPrimary.lgHollow,
+    .icon.lgPrimary.lgHollow,
+    .icon.lgPrimary.lgHollow i {
+        color: var(--primary);
+        border-color: var(--primary);
+    }
+    .btn.lgPrimaryLight.lgHollow,
+    .tag.lgPrimaryLight.lgHollow,
+    .icon.lgPrimaryLight.lgHollow,
+    .icon.lgPrimaryLight.lgHollow i {
+        color: var(--primaryLight);
+        border-color: var(--primaryLight);
+    }
+    .btn.lgPrimaryBold.lgHollow,
+    .tag.lgPrimaryBold.lgHollow,
+    .icon.lgPrimaryBold.lgHollow,
+    .icon.lgPrimaryBold.lgHollow i {
+        color: var(--primaryBold);
+        border-color: var(--primaryBold);
+    }
+    .btn.lgSecondary.lgHollow,
+    .tag.lgSecondary.lgHollow,
+    .icon.lgSecondary.lgHollow,
+    .icon.lgSecondary.lgHollow i {
+        color: var(--secondary);
+        border-color: var(--secondary);
+    }
+    .btn.lgSecondaryLight.lgHollow,
+    .tag.lgSecondaryLight.lgHollow,
+    .icon.lgSecondaryLight.lgHollow,
+    .icon.lgSecondaryLight.lgHollow i {
+        color: var(--secondaryLight);
+        border-color: var(--secondaryLight);
+    }
+    .btn.lgSecondaryBold.lgHollow,
+    .tag.lgSecondaryBold.lgHollow,
+    .icon.lgSecondaryBold.lgHollow,
+    .icon.lgSecondaryBold.lgHollow i {
+        color: var(--secondaryBold);
+        border-color: var(--secondaryBold);
+    }
+    .btn.lgSuccess.lgHollow,
+    .tag.lgSuccess.lgHollow,
+    .icon.lgSuccess.lgHollow,
+    .icon.lgSuccess.lgHollow i {
+        color: var(--success);
+        border-color: var(--success);
+    }
+    .btn.lgSuccessLight.lgHollow,
+    .tag.lgSuccessLight.lgHollow,
+    .icon.lgSuccessLight.lgHollow,
+    .icon.lgSuccessLight.lgHollow i {
+        color: var(--successLight);
+        border-color: var(--successLight);
+    }
+    .btn.lgSuccessBold.lgHollow,
+    .tag.lgSuccessBold.lgHollow,
+    .icon.lgSuccessBold.lgHollow,
+    .icon.lgSuccessBold.lgHollow i {
+        color: var(--successBold);
+        border-color: var(--successBold);
+    }
+    .btn.lgInfo.lgHollow,
+    .tag.lgInfo.lgHollow,
+    .icon.lgInfo.lgHollow,
+    .icon.lgInfo.lgHollow i {
+        color: var(--info);
+        border-color: var(--info);
+    }
+    .btn.lgInfoLight.lgHollow,
+    .tag.lgInfoLight.lgHollow,
+    .icon.lgInfoLight.lgHollow,
+    .icon.lgInfoLight.lgHollow i {
+        color: var(--infoLight);
+        border-color: var(--infoLight);
+    }
+    .btn.lgInfoBold.lgHollow,
+    .tag.lgInfoBold.lgHollow,
+    .icon.lgInfoBold.lgHollow,
+    .icon.lgInfoBold.lgHollow i {
+        color: var(--infoBold);
+        border-color: var(--infoBold);
+    }
+    .btn.lgWarning.lgHollow,
+    .tag.lgWarning.lgHollow,
+    .icon.lgWarning.lgHollow,
+    .icon.lgWarning.lgHollow i {
+        color: var(--warning);
+        border-color: var(--warning);
+    }
+    .btn.lgWarningLight.lgHollow,
+    .tag.lgWarningLight.lgHollow,
+    .icon.lgWarningLight.lgHollow,
+    .icon.lgWarningLight.lgHollow i {
+        color: var(--warningLight);
+        border-color: var(--warningLight);
+    }
+    .btn.lgWarningBold.lgHollow,
+    .tag.lgWarningBold.lgHollow,
+    .icon.lgWarningBold.lgHollow,
+    .icon.lgWarningBold.lgHollow i {
+        color: var(--warningBold);
+        border-color: var(--warningBold);
+    }
+    .btn.lgDanger.lgHollow,
+    .tag.lgDanger.lgHollow,
+    .icon.lgDanger.lgHollow,
+    .icon.lgDanger.lgHollow i {
+        color: var(--danger);
+        border-color: var(--danger);
+    }
+    .btn.lgDangerLight.lgHollow,
+    .tag.lgDangerLight.lgHollow,
+    .icon.lgDangerLight.lgHollow,
+    .icon.lgDangerLight.lgHollow i {
+        color: var(--dangerLight);
+        border-color: var(--dangerLight);
+    }
+    .btn.lgDangerBold.lgHollow,
+    .tag.lgDangerBold.lgHollow,
+    .icon.lgDangerBold.lgHollow,
+    .icon.lgDangerBold.lgHollow i {
+        color: var(--dangerBold);
+        border-color: var(--dangerBold);
+    }
+    .btn.lgDark.lgHollow,
+    .tag.lgDark.lgHollow,
+    .icon.lgDark.lgHollow,
+    .icon.lgDark.lgHollow i {
+        color: var(--dark);
+        border-color: var(--dark);
+    }
+    .btn.lgDarkLight.lgHollow,
+    .tag.lgDarkLight.lgHollow,
+    .icon.lgDarkLight.lgHollow,
+    .icon.lgDarkLight.lgHollow i {
+        color: var(--darkLight);
+        border-color: var(--darkLight);
+    }
+    .btn.lgDarkBold.lgHollow,
+    .tag.lgDarkBold.lgHollow,
+    .icon.lgDarkBold.lgHollow,
+    .icon.lgDarkBold.lgHollow i {
+        color: var(--darkBold);
+        border-color: var(--darkBold);
+    }
+    .btn.lgStandard.lgBlank,
+    .tag.lgStandard.lgBlank,
+    .icon.lgStandard.lgBlank,
+    .icon.lgStandard.lgBlank i {
+        color: var(--default);
+    }
+    .btn.lgLight.lgBlank,
+    .tag.lgLight.lgBlank,
+    .icon.lgLight.lgBlank,
+    .icon.lgLight.lgBlank i {
+        color: var(--defaultLight);
+    }
+    .btn.lgBold.lgBlank,
+    .tag.lgBold.lgBlank,
+    .icon.lgBold.lgBlank,
+    .icon.lgBold.lgBlank i {
+        color: var(--defaultBold);
+    }
+    .btn.lgPrimary.lgBlank,
+    .tag.lgPrimary.lgBlank,
+    .icon.lgPrimary.lgBlank,
+    .icon.lgPrimary.lgBlank i {
+        color: var(--primary);
+    }
+    .btn.lgPrimaryLight.lgBlank,
+    .tag.lgPrimaryLight.lgBlank,
+    .icon.lgPrimaryLight.lgBlank,
+    .icon.lgPrimaryLight.lgBlank i {
+        color: var(--primaryLight);
+    }
+    .btn.lgPrimaryBold.lgBlank,
+    .tag.lgPrimaryBold.lgBlank,
+    .icon.lgPrimaryBold.lgBlank,
+    .icon.lgPrimaryBold.lgBlank i {
+        color: var(--primaryBold);
+    }
+    .btn.lgSecondary.lgBlank,
+    .tag.lgSecondary.lgBlank,
+    .icon.lgSecondary.lgBlank,
+    .icon.lgSecondary.lgBlank i {
+        color: var(--secondary);
+    }
+    .btn.lgSecondaryLight.lgBlank,
+    .tag.lgSecondaryLight.lgBlank,
+    .icon.lgSecondaryLight.lgBlank,
+    .icon.lgSecondaryLight.lgBlank i {
+        color: var(--secondaryLight);
+    }
+    .btn.lgSecondaryBold.lgBlank,
+    .tag.lgSecondaryBold.lgBlank,
+    .icon.lgSecondaryBold.lgBlank,
+    .icon.lgSecondaryBold.lgBlank i {
+        color: var(--secondaryBold);
+    }
+    .btn.lgSuccess.lgBlank,
+    .tag.lgSuccess.lgBlank,
+    .icon.lgSuccess.lgBlank,
+    .icon.lgSuccess.lgBlank i {
+        color: var(--success);
+    }
+    .btn.lgSuccessLight.lgBlank,
+    .tag.lgSuccessLight.lgBlank,
+    .icon.lgSuccessLight.lgBlank,
+    .icon.lgSuccessLight.lgBlank i {
+        color: var(--successLight);
+    }
+    .btn.lgSuccessBold.lgBlank,
+    .tag.lgSuccessBold.lgBlank,
+    .icon.lgSuccessBold.lgBlank,
+    .icon.lgSuccessBold.lgBlank i {
+        color: var(--successBold);
+    }
+    .btn.lgInfo.lgBlank,
+    .tag.lgInfo.lgBlank,
+    .icon.lgInfo.lgBlank,
+    .icon.lgInfo.lgBlank i {
+        color: var(--info);
+    }
+    .btn.lgInfoLight.lgBlank,
+    .tag.lgInfoLight.lgBlank,
+    .icon.lgInfoLight.lgBlank,
+    .icon.lgInfoLight.lgBlank i {
+        color: var(--infoLight);
+    }
+    .btn.lgInfoBold.lgBlank,
+    .tag.lgInfoBold.lgBlank,
+    .icon.lgInfoBold.lgBlank,
+    .icon.lgInfoBold.lgBlank i {
+        color: var(--infoBold);
+    }
+    .btn.lgWarning.lgBlank,
+    .tag.lgWarning.lgBlank,
+    .icon.lgWarning.lgBlank,
+    .icon.lgWarning.lgBlank i {
+        color: var(--warning);
+    }
+    .btn.lgWarningLight.lgBlank,
+    .tag.lgWarningLight.lgBlank,
+    .icon.lgWarningLight.lgBlank,
+    .icon.lgWarningLight.lgBlank i {
+        color: var(--warningLight);
+    }
+    .btn.lgWarningBold.lgBlank,
+    .tag.lgWarningBold.lgBlank,
+    .icon.lgWarningBold.lgBlank,
+    .icon.lgWarningBold.lgBlank i {
+        color: var(--warningBold);
+    }
+    .btn.lgDanger.lgBlank,
+    .tag.lgDanger.lgBlank,
+    .icon.lgDanger.lgBlank,
+    .icon.lgDanger.lgBlank i {
+        color: var(--danger);
+    }
+    .btn.lgDangerLight.lgBlank,
+    .tag.lgDangerLight.lgBlank,
+    .icon.lgDangerLight.lgBlank,
+    .icon.lgDangerLight.lgBlank i {
+        color: var(--dangerLight);
+    }
+    .btn.lgDangerBold.lgBlank,
+    .tag.lgDangerBold.lgBlank,
+    .icon.lgDangerBold.lgBlank,
+    .icon.lgDangerBold.lgBlank i {
+        color: var(--dangerBold);
+    }
+    .btn.lgDark.lgBlank,
+    .tag.lgDark.lgBlank,
+    .icon.lgDark.lgBlank,
+    .icon.lgDark.lgBlank i {
+        color: var(--dark);
+    }
+    .btn.lgDarkLight.lgBlank,
+    .tag.lgDarkLight.lgBlank,
+    .icon.lgDarkLight.lgBlank,
+    .icon.lgDarkLight.lgBlank i {
+        color: var(--darkLight);
+    }
+    .btn.lgDarkBold.lgBlank,
+    .tag.lgDarkBold.lgBlank,
+    .icon.lgDarkBold.lgBlank,
+    .icon.lgDarkBold.lgBlank i {
+        color: var(--darkBold);
+    }
+    /*================================================================================================================================
+    Images
+    ================================================================================================================================*/
+    .image.lgThumbnail {
+        padding: var(--gap);
+        background-color: var(--default);
+    }
+    .image.lgRounded {
+        border-radius: var(--gap);
+    }
+    .image.lgCircled {
+        border-radius: 50%;
+    }
+    .image.lgSize-16x16 {
+        width: 16px;
+        height: 16px;
+    }
+    .image.lgSize-24x24 {
+        width: 24px;
+        height: 24px;
+    }
+    .image.lgSize-32x32 {
+        width: 32px;
+        height: 32px;
+    }
+    .image.lgSize-48x48 {
+        width: 48px;
+        height: 48px;
+    }
+    .image.lgSize-64x64 {
+        width: 64px;
+        height: 64px;
+    }
+    .image.lgSize-96x96 {
+        width: 96px;
+        height: 96px;
+    }
+    .image.lgSize-128x128 {
+        width: 128px;
+        height: 128px;
+    }
+    .image.lgSize-1x1 {
+        width: 480px;
+        height: 480px;
+    }
+    .image.lgSize-2x1 {
+        width: 640px;
+        height: 320px;
+    }
+    .image.lgSize-3x1 {
+        width: 720px;
+        height: 240px;
+    }
+    .image.lgSize-3x2 {
+        width: 480px;
+        height: 320px;
+    }
+    .image.lgSize-4x3 {
+        width: 640px;
+        height: 480px;
+    }
+    .image.lgSize-5x3 {
+        width: 800px;
+        height: 480px;
+    }
+    .image.lgSize-5x4 {
+        width: 600px;
+        height: 480px;
+    }
+    /*================================================================================================================================
+    Object Fit Types
+    ================================================================================================================================*/
+    .lgObjectCover {
+        object-fit: cover;
+    }
+    .lgObjectContain {
+        object-fit: contain;
+    }
+    .lgObjectFill {
+        object-fit: fill;
+    }
+    .lgObjectTop {
+        object-position: top;
+    }
+    .lgObjectRight {
+        object-position: right;
+    }
+    .lgObjectBottom {
+        object-position: bottom;
+    }
+    .lgObjectLeft {
+        object-position: left;
+    }
+    .lgObjectCenter {
+        object-position: center;
+    }
+    /*================================================================================================================================
+    Backgrounds
+    ================================================================================================================================*/
+    .lgBackTransparent {
+        background-color: transparent !important;
+    }
+    .lgBack {
+        background-color: var(--default) !important;
+    }
+    .lgBackPrimary {
+        background-color: var(--primary) !important;
+    }
+    .lgBackSecondary {
+        background-color: var(--secondary) !important;
+    }
+    .lgBackSuccess {
+        background-color: var(--success) !important;
+    }
+    .lgBackInfo {
+        background-color: var(--info) !important;
+    }
+    .lgBackWarning {
+        background-color: var(--warning) !important;
+    }
+    .lgBackDanger {
+        background-color: var(--danger) !important;
+    }
+    .lgBackDark {
+        background-color: var(--dark) !important;
+    }
+    .lgBackLight {
+        background-color: var(--defaultLight) !important;
+    }
+    .lgBackPrimaryLight {
+        background-color: var(--primaryLight) !important;
+    }
+    .lgBackSecondaryLight {
+        background-color: var(--secondaryLight) !important;
+    }
+    .lgBackSuccessLight {
+        background-color: var(--successLight) !important;
+    }
+    .lgBackInfoLight {
+        background-color: var(--infoLight) !important;
+    }
+    .lgBackWarningLight {
+        background-color: var(--warningLight) !important;
+    }
+    .lgBackDangerLight {
+        background-color: var(--dangerLight) !important;
+    }
+    .lgBackDarkLight {
+        background-color: var(--darkLight) !important;
+    }
+    .lgBackDark {
+        background-color: var(--defaultBold) !important;
+    }
+    .lgBackPrimaryBold {
+        background-color: var(--primaryBold) !important;
+    }
+    .lgBackSecondaryBold {
+        background-color: var(--secondaryBold) !important;
+    }
+    .lgBackSuccessBold {
+        background-color: var(--successBold) !important;
+    }
+    .lgBackInfoBold {
+        background-color: var(--infoBold) !important;
+    }
+    .lgBackWarningBold {
+        background-color: var(--warningBold) !important;
+    }
+    .lgBackDangerBold {
+        background-color: var(--dangerBold) !important;
+    }
+    .lgBackDarkBold {
+        background-color: var(--darkBold) !important;
+    }
+    /*================================================================================================================================
+    Text Aligns
+    ================================================================================================================================*/
+    .lgTextLeft {
+        text-align: left;
+    }
+    .lgTextCenter {
+        text-align: center;
+    }
+    .lgTextRight {
+        text-align: right;
+    }
+    .lgTextJustify {
+        text-align: justify;
+    }
+    /*================================================================================================================================
+    Text Decorations
+    ================================================================================================================================*/
+    .lgTextUnderline {
+        text-decoration: underline;
+    }
+    .lgTextOverline {
+        text-decoration: overline;
+    }
+    .lgTextStrike {
+        text-decoration: line-through;
+    }
+    /*================================================================================================================================
+    Text Colors
+    ================================================================================================================================*/
+    .lgText {
+        color: var(--default) !important;
+    }
+    .lgTextPrimary {
+        color: var(--primary) !important;
+    }
+    .lgTextSecondary {
+        color: var(--secondary) !important;
+    }
+    .lgTextSuccess {
+        color: var(--success) !important;
+    }
+    .lgTextInfo {
+        color: var(--info) !important;
+    }
+    .lgTextWarning {
+        color: var(--warning) !important;
+    }
+    .lgTextDanger {
+        color: var(--danger) !important;
+    }
+    .lgTextDark {
+        color: var(--dark) !important;
+    }
+    .lgTextLight {
+        color: var(--defaultLight) !important;
+    }
+    .lgTextPrimaryLight {
+        color: var(--primaryLight) !important;
+    }
+    .lgTextSecondaryLight {
+        color: var(--secondaryLight) !important;
+    }
+    .lgTextSuccessLight {
+        color: var(--successLight) !important;
+    }
+    .lgTextInfoLight {
+        color: var(--infoLight) !important;
+    }
+    .lgTextWarningLight {
+        color: var(--warningLight) !important;
+    }
+    .lgTextDangerLight {
+        color: var(--dangerLight) !important;
+    }
+    .lgTextDarkLight {
+        color: var(--darkLight) !important;
+    }
+    .lgTextDark {
+        color: var(--defaultBold) !important;
+    }
+    .lgTextPrimaryBold {
+        color: var(--primaryBold) !important;
+    }
+    .lgTextSecondaryBold {
+        color: var(--secondaryBold) !important;
+    }
+    .lgTextSuccessBold {
+        color: var(--successBold) !important;
+    }
+    .lgTextInfoBold {
+        color: var(--infoBold) !important;
+    }
+    .lgTextWarningBold {
+        color: var(--warningBold) !important;
+    }
+    .lgTextDangerBold {
+        color: var(--dangerBold) !important;
+    }
+    .lgTextDarkBold {
+        color: var(--darkBold) !important;
+    }
+    /*================================================================================================================================
+    Text Weights
+    ================================================================================================================================*/
+    .lgWeight-100 {
+        font-weight: 100 !important;
+    }
+    .lgWeight-200 {
+        font-weight: 200 !important;
+    }
+    .lgWeight-300 {
+        font-weight: 300 !important;
+    }
+    .lgWeight-400 {
+        font-weight: 400 !important;
+    }
+    .lgWeight-500 {
+        font-weight: 500 !important;
+    }
+    .lgWeight-600 {
+        font-weight: 600 !important;
+    }
+    .lgWeight-700 {
+        font-weight: 700 !important;
+    }
+    .lgWeight-800 {
+        font-weight: 800 !important;
+    }
+    .lgWeight-900 {
+        font-weight: 900 !important;
+    }
+    /*================================================================================================================================
+    Text Sizes
+    ================================================================================================================================*/
+    .lgSize-8 {
+        font-size: 8px !important;
+    }
+    .lgSize-9 {
+        font-size: 9px !important;
+    }
+    .lgSize-10 {
+        font-size: 10px !important;
+    }
+    .lgSize-11 {
+        font-size: 11px !important;
+    }
+    .lgSize-12 {
+        font-size: 12px !important;
+    }
+    .lgSize-14 {
+        font-size: 14px !important;
+    }
+    .lgSize-16 {
+        font-size: 16px !important;
+    }
+    .lgSize-18 {
+        font-size: 18px !important;
+    }
+    .lgSize-20 {
+        font-size: 20px !important;
+    }
+    .lgSize-22 {
+        font-size: 22px !important;
+    }
+    .lgSize-24 {
+        font-size: 24px !important;
+    }
+    .lgSize-26 {
+        font-size: 26px !important;
+    }
+    .lgSize-28 {
+        font-size: 28px !important;
+    }
+    .lgSize-30 {
+        font-size: 30px !important;
+    }
+    .lgSize-32 {
+        font-size: 32px !important;
+    }
+    .lgSize-34 {
+        font-size: 34px !important;
+    }
+    .lgSize-36 {
+        font-size: 36px !important;
+    }
+    .lgSize-38 {
+        font-size: 38px !important;
+    }
+    .lgSize-40 {
+        font-size: 40px !important;
+    }
+    .lgSize-42 {
+        font-size: 42px !important;
+    }
+    .lgSize-44 {
+        font-size: 44px !important;
+    }
+    .lgSize-46 {
+        font-size: 46px !important;
+    }
+    .lgSize-48 {
+        font-size: 48px !important;
+    }
+    .lgSize-50 {
+        font-size: 50px !important;
+    }
+    .lgSize-52 {
+        font-size: 52px !important;
+    }
+    .lgSize-54 {
+        font-size: 54px !important;
+    }
+    .lgSize-56 {
+        font-size: 56px !important;
+    }
+    .lgSize-58 {
+        font-size: 58px !important;
+    }
+    .lgSize-60 {
+        font-size: 60px !important;
+    }
+    .lgSize-62 {
+        font-size: 62px !important;
+    }
+    .lgSize-64 {
+        font-size: 64px !important;
+    }
+    .lgSize-66 {
+        font-size: 66px !important;
+    }
+    .lgSize-68 {
+        font-size: 68px !important;
+    }
+    .lgSize-70 {
+        font-size: 70px !important;
+    }
+    .lgSize-72 {
+        font-size: 72px !important;
+    }
+    /*================================================================================================================================
+Border Width
+================================================================================================================================*/
+    .lgBorder-0 {
+        border-width: 0px !important;
+    }
+    .lgBorder-1 {
+        border-width: 1px !important;
+    }
+    .lgBorder-2 {
+        border-width: 2px !important;
+    }
+    .lgBorder-3 {
+        border-width: 3px !important;
+    }
+    .lgBorder-4 {
+        border-width: 4px !important;
+    }
+    .lgBorder-5 {
+        border-width: 5px !important;
+    }
+    .lgBorder-6 {
+        border-width: 6px !important;
+    }
+    .lgBorderLeft-0 {
+        border-left-width: 0px !important;
+    }
+    .lgBorderLeft-1 {
+        border-left-width: 1px !important;
+    }
+    .lgBorderLeft-2 {
+        border-left-width: 2px !important;
+    }
+    .lgBorderLeft-3 {
+        border-left-width: 3px !important;
+    }
+    .lgBorderLeft-4 {
+        border-left-width: 4px !important;
+    }
+    .lgBorderLeft-5 {
+        border-left-width: 5px !important;
+    }
+    .lgBorderLeft-6 {
+        border-left-width: 6px !important;
+    }
+    .lgBorderTop-0 {
+        border-top-width: 0px !important;
+    }
+    .lgBorderTop-1 {
+        border-top-width: 1px !important;
+    }
+    .lgBorderTop-2 {
+        border-top-width: 2px !important;
+    }
+    .lgBorderTop-3 {
+        border-top-width: 3px !important;
+    }
+    .lgBorderTop-4 {
+        border-top-width: 4px !important;
+    }
+    .lgBorderTop-5 {
+        border-top-width: 5px !important;
+    }
+    .lgBorderTop-6 {
+        border-top-width: 6px !important;
+    }
+    .lgBorderRight-0 {
+        border-right-width: 0px !important;
+    }
+    .lgBorderRight-1 {
+        border-right-width: 1px !important;
+    }
+    .lgBorderRight-2 {
+        border-right-width: 2px !important;
+    }
+    .lgBorderRight-3 {
+        border-right-width: 3px !important;
+    }
+    .lgBorderRight-4 {
+        border-right-width: 4px !important;
+    }
+    .lgBorderRight-5 {
+        border-right-width: 5px !important;
+    }
+    .lgBorderRight-6 {
+        border-right-width: 6px !important;
+    }
+    .lgBorderBottom-0 {
+        border-bottom-width: 0px !important;
+    }
+    .lgBorderBottom-1 {
+        border-bottom-width: 1px !important;
+    }
+    .lgBorderBottom-2 {
+        border-bottom-width: 2px !important;
+    }
+    .lgBorderBottom-3 {
+        border-bottom-width: 3px !important;
+    }
+    .lgBorderBottom-4 {
+        border-bottom-width: 4px !important;
+    }
+    .lgBorderBottom-5 {
+        border-bottom-width: 5px !important;
+    }
+    .lgBorderBottom-6 {
+        border-bottom-width: 6px !important;
+    }
+    /*================================================================================================================================
+Border Radius
+================================================================================================================================*/
+    .radius-0 {
+        border-radius: 0px !important;
+    }
+    .radius-1 {
+        border-radius: 30px !important;
+    }
+    .radius-2 {
+        border-radius: 25px !important;
+    }
+    .radius-3 {
+        border-radius: 20px !important;
+    }
+    .radius-4 {
+        border-radius: 15px !important;
+    }
+    .radius-5 {
+        border-radius: 10px !important;
+    }
+    .radius-6 {
+        border-radius: 5px !important;
+    }
+    .radiusTopLeft-0 {
+        border-top-left-radius: 0px !important;
+    }
+    .radiusTopLeft-1 {
+        border-top-left-radius: 30px !important;
+    }
+    .radiusTopLeft-2 {
+        border-top-left-radius: 25px !important;
+    }
+    .radiusTopLeft-3 {
+        border-top-left-radius: 20px !important;
+    }
+    .radiusTopLeft-4 {
+        border-top-left-radius: 15px !important;
+    }
+    .radiusTopLeft-5 {
+        border-top-left-radius: 10px !important;
+    }
+    .radiusTopLeft-6 {
+        border-top-left-radius: 5px !important;
+    }
+    .radiusTopRight-0 {
+        border-top-right-radius: 0px !important;
+    }
+    .radiusTopRight-1 {
+        border-top-right-radius: 30px !important;
+    }
+    .radiusTopRight-2 {
+        border-top-right-radius: 25px !important;
+    }
+    .radiusTopRight-3 {
+        border-top-right-radius: 20px !important;
+    }
+    .radiusTopRight-4 {
+        border-top-right-radius: 15px !important;
+    }
+    .radiusTopRight-5 {
+        border-top-right-radius: 10px !important;
+    }
+    .radiusTopRight-6 {
+        border-top-right-radius: 5px !important;
+    }
+    .radiusBottomRight-0 {
+        border-bottom-right-radius: 0px !important;
+    }
+    .radiusBottomRight-1 {
+        border-bottom-right-radius: 30px !important;
+    }
+    .radiusBottomRight-2 {
+        border-bottom-right-radius: 25px !important;
+    }
+    .radiusBottomRight-3 {
+        border-bottom-right-radius: 20px !important;
+    }
+    .radiusBottomRight-4 {
+        border-bottom-right-radius: 15px !important;
+    }
+    .radiusBottomRight-5 {
+        border-bottom-right-radius: 10px !important;
+    }
+    .radiusBottomRight-6 {
+        border-bottom-right-radius: 5px !important;
+    }
+    .radiusBottomLeft-0 {
+        border-bottom-left-radius: 0px !important;
+    }
+    .radiusBottomLeft-1 {
+        border-bottom-left-radius: 30px !important;
+    }
+    .radiusBottom-2 {
+        border-bottom-left-radius: 25px !important;
+    }
+    .radiusBottom-3 {
+        border-bottom-left-radius: 20px !important;
+    }
+    .radiusBottom-4 {
+        border-bottom-left-radius: 15px !important;
+    }
+    .radiusBottom-5 {
+        border-bottom-left-radius: 10px !important;
+    }
+    .radiusBottom-6 {
+        border-bottom-left-radius: 5px !important;
+    }
+    /*================================================================================================================================
+Border Styles
+================================================================================================================================*/
+    .lgBorderDashed {
+        border-style: dashed !important;
+    }
+    .lgBorderDotted {
+        border-style: dotted !important;
+    }
+    .lgBorderDouble {
+        border-style: double !important;
+    }
+    .lgBorderGroove {
+        border-style: groove !important;
+    }
+    .lgBorderHidden {
+        border-style: hidden !important;
+    }
+    .lgBorderInset {
+        border-style: inset !important;
+    }
+    .lgBorderNone {
+        border-style: none !important;
+    }
+    .lgBorderOutset {
+        border-style: outset !important;
+    }
+    .lgBorderRidge {
+        border-style: ridge !important;
+    }
+    .lgBorderSolid {
+        border-style: solid !important;
+    }
+    .lgBorderUnset {
+        border-style: unset !important;
+    }
+    /*================================================================================================================================
+    Border Colors
+    ================================================================================================================================*/
+    .lgBorder {
+        border-color: var(--default) !important;
+    }
+    .lgBorderPrimary {
+        border-color: var(--primary) !important;
+    }
+    .lgBorderSecondary {
+        border-color: var(--secondary) !important;
+    }
+    .lgBorderSuccess {
+        border-color: var(--success) !important;
+    }
+    .lgBorderInfo {
+        border-color: var(--info) !important;
+    }
+    .lgBorderWarning {
+        border-color: var(--warning) !important;
+    }
+    .lgBorderDanger {
+        border-color: var(--danger) !important;
+    }
+    .lgBorderDark {
+        border-color: var(--dark) !important;
+    }
+    .lgBorderLight {
+        border-color: var(--defaultLight) !important;
+    }
+    .lgBorderPrimaryLight {
+        border-color: var(--primaryLight) !important;
+    }
+    .lgBorderSecondaryLight {
+        border-color: var(--secondaryLight) !important;
+    }
+    .lgBorderSuccessLight {
+        border-color: var(--successLight) !important;
+    }
+    .lgBorderInfoLight {
+        border-color: var(--infoLight) !important;
+    }
+    .lgBorderWarningLight {
+        border-color: var(--warningLight) !important;
+    }
+    .lgBorderDangerLight {
+        border-color: var(--dangerLight) !important;
+    }
+    .lgBorderDarkLight {
+        border-color: var(--darkLight) !important;
+    }
+    .lgBorderBold {
+        border-color: var(--defaultBold) !important;
+    }
+    .lgBorderPrimaryBold {
+        border-color: var(--primaryBold) !important;
+    }
+    .lgBorderSecondaryBold {
+        border-color: var(--secondaryBold) !important;
+    }
+    .lgBorderSuccessBold {
+        border-color: var(--successBold) !important;
+    }
+    .lgBorderInfoBold {
+        border-color: var(--infoBold) !important;
+    }
+    .lgBorderWarningBold {
+        border-color: var(--warningBold) !important;
+    }
+    .lgBorderDangerBold {
+        border-color: var(--dangerBold) !important;
+    }
+    .lgBorderDarkBold {
+        border-color: var(--darkBold) !important;
+    }
+    /*================================================================================================================================
+    Paddings
+    ================================================================================================================================*/
+    .lgPadding-0 {
+        padding: 0 !important;
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important;
+    }
+    .lgPaddingX-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .lgPaddingY-0 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .lgPaddingTop-0 {
+        padding-top: 0 !important;
+    }
+    .lgPaddingRight-0 {
+        padding-right: 0 !important;
+    }
+    .lgPaddingBottom-0 {
+        padding-bottom: 0 !important;
+    }
+    .lgPaddingLeft-0 {
+        padding-left: 0 !important;
+    }
+    .lgPadding-1 {
+        padding: 50px !important;
+    }
+    .lgPadding-2 {
+        padding: 40px !important;
+    }
+    .lgPadding-3 {
+        padding: 30px !important;
+    }
+    .lgPadding-4 {
+        padding: 20px !important;
+    }
+    .lgPadding-5 {
+        padding: 10px !important;
+    }
+    .lgPadding-6 {
+        padding: 5px !important;
+    }
+    .lgPaddingX-1 {
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+    .lgPaddingX-2 {
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+    .lgPaddingX-3 {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+    .lgPaddingX-4 {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .lgPaddingX-5 {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+    .lgPaddingX-6 {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .lgPaddingY-1 {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .lgPaddingY-2 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    .lgPaddingY-3 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .lgPaddingY-4 {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .lgPaddingY-5 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .lgPaddingY-6 {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    .lgPaddingTop-1 {
+        padding-top: 50px !important;
+    }
+    .lgPaddingTop-2 {
+        padding-top: 40px !important;
+    }
+    .lgPaddingTop-3 {
+        padding-top: 30px !important;
+    }
+    .lgPaddingTop-4 {
+        padding-top: 20px !important;
+    }
+    .lgPaddingTop-5 {
+        padding-top: 10px !important;
+    }
+    .lgPaddingTop-6 {
+        padding-top: 5px !important;
+    }
+    .lgPaddingRight-1 {
+        padding-right: 50px !important;
+    }
+    .lgPaddingRight-2 {
+        padding-right: 40px !important;
+    }
+    .lgPaddingRight-3 {
+        padding-right: 30px !important;
+    }
+    .lgPaddingRight-4 {
+        padding-right: 20px !important;
+    }
+    .lgPaddingRight-5 {
+        padding-right: 10px !important;
+    }
+    .lgPaddingRight-6 {
+        padding-right: 5px !important;
+    }
+    .lgPaddingBottom-1 {
+        padding-bottom: 50px !important;
+    }
+    .lgPaddingBottom-2 {
+        padding-bottom: 40px !important;
+    }
+    .lgPaddingBottom-3 {
+        padding-bottom: 30px !important;
+    }
+    .lgPaddingBottom-4 {
+        padding-bottom: 20px !important;
+    }
+    .lgPaddingBottom-5 {
+        padding-bottom: 10px !important;
+    }
+    .lgPaddingBottom-6 {
+        padding-bottom: 5px !important;
+    }
+    .lgPaddingLeft-1 {
+        padding-left: 50px !important;
+    }
+    .lgPaddingLeft-2 {
+        padding-left: 40px !important;
+    }
+    .lgPaddingLeft-3 {
+        padding-left: 30px !important;
+    }
+    .lgPaddingLeft-4 {
+        padding-left: 20px !important;
+    }
+    .lgPaddingLeft-5 {
+        padding-left: 10px !important;
+    }
+    .lgPaddingLeft-6 {
+        padding-left: 5px !important;
+    }
+    /*================================================================================================================================
+    Margins
+    ================================================================================================================================*/
+    .lgMargin-0 {
+        margin: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+    }
+    .lgMarginX-0 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .lgMarginY-0 {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .lgMarginTop-0 {
+        margin-top: 0 !important;
+    }
+    .lgMarginRight-0 {
+        margin-right: 0 !important;
+    }
+    .lgMarginBottom-0 {
+        margin-bottom: 0 !important;
+    }
+    .lgMarginLeft-0 {
+        margin-left: 0 !important;
+    }
+    .lgMargin-1 {
+        margin: 50px !important;
+    }
+    .lgMargin-2 {
+        margin: 40px !important;
+    }
+    .lgMargin-3 {
+        margin: 30px !important;
+    }
+    .lgMargin-4 {
+        margin: 20px !important;
+    }
+    .lgMargin-5 {
+        margin: 10px !important;
+    }
+    .lgMargin-6 {
+        margin: 5px !important;
+    }
+    .lgMarginX-1 {
+        margin-right: 50px !important;
+        margin-left: 50px !important;
+    }
+    .lgMarginX-2 {
+        margin-right: 40px !important;
+        margin-left: 40px !important;
+    }
+    .lgMarginX-3 {
+        margin-right: 30px !important;
+        margin-left: 30px !important;
+    }
+    .lgMarginX-4 {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+    .lgMarginX-5 {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+    .lgMarginX-6 {
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+    }
+    .lgMarginY-1 {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .lgMarginY-2 {
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    .lgMarginY-3 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .lgMarginY-4 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .lgMarginY-5 {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .lgMarginY-6 {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .lgMarginTop-1 {
+        margin-top: 50px !important;
+    }
+    .lgMarginTop-2 {
+        margin-top: 40px !important;
+    }
+    .lgMarginTop-3 {
+        margin-top: 30px !important;
+    }
+    .lgMarginTop-4 {
+        margin-top: 20px !important;
+    }
+    .lgMarginTop-5 {
+        margin-top: 10px !important;
+    }
+    .lgMarginTop-6 {
+        margin-top: 5px !important;
+    }
+    .lgMarginRight-1 {
+        margin-right: 50px !important;
+    }
+    .lgMarginRight-2 {
+        margin-right: 40px !important;
+    }
+    .lgMarginRight-3 {
+        margin-right: 30px !important;
+    }
+    .lgMarginRight-4 {
+        margin-right: 20px !important;
+    }
+    .lgMarginRight-5 {
+        margin-right: 10px !important;
+    }
+    .lgMarginRight-6 {
+        margin-right: 5px !important;
+    }
+    .lgMarginBottom-1 {
+        margin-bottom: 50px !important;
+    }
+    .lgMarginBottom-2 {
+        margin-bottom: 40px !important;
+    }
+    .lgMarginBottom-3 {
+        margin-bottom: 30px !important;
+    }
+    .lgMarginBottom-4 {
+        margin-bottom: 20px !important;
+    }
+    .lgMarginBottom-5 {
+        margin-bottom: 10px !important;
+    }
+    .lgMarginBottom-6 {
+        margin-bottom: 5px !important;
+    }
+    .lgMarginLeft-1 {
+        margin-left: 50px !important;
+    }
+    .lgMarginLeft-2 {
+        margin-left: 40px !important;
+    }
+    .lgMarginLeft-3 {
+        margin-left: 30px !important;
+    }
+    .lgMarginLeft-4 {
+        margin-left: 20px !important;
+    }
+    .lgMarginLeft-5 {
+        margin-left: 10px !important;
+    }
+    .lgMarginLeft-6 {
+        margin-left: 5px !important;
+    }
+}

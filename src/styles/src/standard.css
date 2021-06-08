@@ -1,0 +1,3202 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: #1d1d1d;
+    outline: unset;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --col: 8.33333333%;
+    --gap: 5px;
+    --radius: 5px;
+    --darkLight: #c7c9d3;
+    --dark: #444857;
+    --darkBold: #131417;
+    --dangerLight: #f6cdd1;
+    --danger: #dc3545;
+    --dangerBold: #370d11;
+    --defaultLight: white;
+    --default: #f1f1f1;
+    --defaultBold: #404040;
+    --infoLight: #c5e8ed;
+    --info: #17a2b8;
+    --infoBold: #06292e;
+    --primaryLight: #bfdeff;
+    --primary: #007bff;
+    --primaryBold: #001f40;
+    --secondaryLight: #d9c3fc;
+    --secondary: #6610f2;
+    --secondaryBold: #1a043d;
+    --successLight: #c9e9d1;
+    --success: #28a745;
+    --successBold: #0a2a11;
+    --warningLight: #fff0c1;
+    --warning: #ffc107;
+    --warningBold: #403002;
+}
+
+[class*="header-"],
+[class*="subHeader-"],
+[class*="display-"],
+[class*="break-"],
+[class*="lgBeader-"],
+[class*="lgBubHeader-"],
+[class*="lgBisplay-"],
+[class*="lgBreak-"] {
+    width: 100%;
+    margin: 0;
+}
+
+[class*="subHeader-"],
+[class*="lgSubHeader-"] {
+    opacity: .8;
+}
+
+[class*="col"],
+[class*="lgCol"],
+[class*="mdCol"],
+[class*="smCol"] {
+    padding: var(--gap);
+}
+
+button:hover:not(.disable) {
+    filter: saturate(0.5)
+}
+
+.nav.primary,
+.btn.primary,
+.tag.primary,
+.box.primary,
+.icon.primary *,
+.alert.primary,
+.banner.primary,
+.nav.secondary,
+.btn.secondary,
+.tag.secondary,
+.box.secondary,
+.icon.secondary *,
+.alert.secondary,
+.banner.secondary,
+.nav.success,
+.btn.success,
+.tag.success,
+.box.success,
+.icon.success *,
+.alert.success,
+.banner.success,
+.nav.info,
+.btn.info,
+.tag.info,
+.box.info,
+.icon.info *,
+.alert.info,
+.banner.info,
+.nav.danger,
+.btn.danger,
+.tag.danger,
+.box.danger,
+.icon.danger *,
+.alert.danger,
+.banner.danger,
+.nav.dark,
+.btn.dark,
+.tag.dark,
+.box.dark,
+.icon.dark *,
+.alert.dark,
+.banner.dark,
+.nav.bold,
+.btn.bold,
+.tag.bold,
+.box.bold,
+.icon.bold *,
+.alert.bold,
+.banner.bold,
+.nav.primaryBold,
+.btn.primaryBold,
+.tag.primaryBold,
+.box.primaryBold,
+.icon.PrimaryBold *,
+.alert.primaryBold,
+.banner.primaryBold,
+.nav.secondaryBold,
+.btn.secondaryBold,
+.tag.secondaryBold,
+.box.secondaryBold,
+.icon.secondaryBold *,
+.alert.secondaryBold,
+.banner.secondaryBold,
+.nav.successBold,
+.btn.successBold,
+.tag.successBold,
+.box.successBold,
+.icon.successBold *,
+.alert.successBold,
+.banner.successBold,
+.nav.infoBold,
+.btn.infoBold,
+.tag.infoBold,
+.box.infoBold,
+.icon.infoBold *,
+.alert.infoBold,
+.banner.infoBold,
+.nav.warningBold,
+.btn.warningBold,
+.tag.warningBold,
+.box.warningBold,
+.icon.warningBold *,
+.alert.warningBold,
+.banner.warningBold,
+.nav.dangerBold,
+.btn.dangerBold,
+.tag.dangerBold,
+.box.dangerBold,
+.icon.dangerBold *,
+.alert.dangerBold,
+.banner.dangerBold,
+.nav.darkBold,
+.btn.darkBold,
+.tag.darkBold,
+.box.darkBold,
+.icon.darkBold *,
+.alert.darkBold,
+.banner.darkBold {
+    color: #ffffff
+}
+
+.nav.light,
+.btn.light,
+.tag.light,
+.box.light,
+.icon.light *,
+.alert.light,
+.banner.light,
+.nav.primaryLight,
+.btn.primaryLight,
+.tag.primaryLight,
+.box.primaryLight,
+.icon.primaryLight *,
+.alert.primaryLight,
+.banner.primaryLight,
+.nav.secondaryLight,
+.btn.secondaryLight,
+.tag.secondaryLight,
+.box.secondaryLight,
+.icon.secondaryLight *,
+.alert.secondaryLight,
+.banner.secondaryLight,
+.nav.successLight,
+.btn.successLight,
+.tag.successLight,
+.box.successLight,
+.icon.successLight *,
+.alert.successLight,
+.banner.successLight,
+.nav.infoLight,
+.btn.infoLight,
+.tag.infoLight,
+.box.infoLight,
+.icon.infoLight *,
+.alert.infoLight,
+.banner.infoLight,
+.nav.warningLight,
+.btn.warningLight,
+.tag.warningLight,
+.box.warningLight,
+.icon.warningLight *,
+.alert.warningLight,
+.banner.warningLight,
+.nav.dangerLight,
+.btn.dangerLight,
+.tag.dangerLight,
+.box.dangerLight,
+.icon.dangerLight *,
+.alert.dangerLight,
+.banner.dangerLight,
+.nav.darkLight,
+.btn.darkLight,
+.tag.darkLight,
+.box.darkLight,
+.icon.darkLight *,
+.alert.darkLight,
+.banner.darkLight,
+.nav,
+.btn,
+.tag,
+.box,
+.icon *,
+.alert,
+.banner,
+.nav.warning,
+.btn.warning,
+.tag.warning,
+.box.warning,
+.icon.warning *,
+.alert.warning,
+.banner.warning {
+    color: #1d1d1d;
+}
+
+.btn.large,
+.tag.large,
+.formbox.large {
+    padding: 4px 12px;
+    font-size: 26px;
+}
+
+.btn,
+.tag,
+.formbox {
+    padding: 3.5px 10.5px;
+    font-size: 22px;
+}
+
+.btn.medium,
+.tag.medium,
+.formbox.medium {
+    padding: 3px 9px;
+    font-size: 18px;
+}
+
+.btn.small,
+.tag.small,
+.formbox.small {
+    padding: 2.5px 7.5px;
+    font-size: 14px;
+}
+
+.icon.large,
+.icon.large * {
+    padding: 4.5px;
+    font-size: 22px;
+}
+
+.icon,
+.icon * {
+    padding: 4px;
+    font-size: 18px;
+}
+
+.icon.medium,
+.icon.medium * {
+    padding: 3.5px;
+    font-size: 14px;
+}
+
+.icon.small,
+.icon.small * {
+    padding: 3px;
+    font-size: 10px;
+}
+
+.btn.hollow,
+.tag.hollow,
+.icon.hollow,
+.icon.hollow i {
+    background-color: transparent !important;
+}
+
+.btn.blank,
+.tag.blank,
+.icon.blank,
+.icon.blank i {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+
+/*================================================================================================================================
+divs
+================================================================================================================================*/
+
+.show {
+    display: initial;
+}
+
+.hide {
+    display: none;
+}
+
+.block {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.block.collapse,
+.block.collapse>[class*="col"],
+.block.collapse>[class*="lgCol"],
+.block.collapse>[class*="mdCol"],
+.block.collapse>[class*="smCol"] {
+    padding: 0;
+}
+
+.colMax {
+    width: max-content;
+}
+
+.colFit {
+    width: fit-content;
+}
+
+.colMin {
+    width: min-content;
+}
+
+.col-12 {
+    width: calc(var(--col) * 12);
+}
+
+.col-11 {
+    width: calc(var(--col) * 11);
+}
+
+.col-10 {
+    width: calc(var(--col) * 10);
+}
+
+.col-9 {
+    width: calc(var(--col) * 9);
+}
+
+.col-8 {
+    width: calc(var(--col) * 8);
+}
+
+.col-7 {
+    width: calc(var(--col) * 7);
+}
+
+.col-6 {
+    width: calc(var(--col) * 6);
+}
+
+.col-5 {
+    width: calc(var(--col) * 5);
+}
+
+.col-4 {
+    width: calc(var(--col) * 4);
+}
+
+.col-3 {
+    width: calc(var(--col) * 3);
+}
+
+.col-2 {
+    width: calc(var(--col) * 2);
+}
+
+.col-1 {
+    width: calc(var(--col) * 1);
+}
+
+.col {
+    flex: 1;
+}
+
+
+/*================================================================================================================================
+orders
+================================================================================================================================*/
+
+.order-1 {
+    order: -1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+.order-10 {
+    order: 10;
+}
+
+.order-11 {
+    order: 11;
+}
+
+.order-12 {
+    order: 12;
+}
+
+
+/*================================================================================================================================
+full size
+================================================================================================================================*/
+
+.full {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.fullX {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.fullY {
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+
+/*================================================================================================================================
+divsPosition
+================================================================================================================================*/
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+/*================================================================================================================================
+Divs Flex Justify Content
+================================================================================================================================*/
+
+.contentStartX {
+    justify-content: flex-start;
+}
+
+.contentCenterX {
+    justify-content: center;
+}
+
+.contentEndX {
+    justify-content: flex-end;
+}
+
+.contentBetweenX {
+    justify-content: space-between;
+}
+
+.contentAroundX {
+    justify-content: space-around;
+}
+
+.contentEvenlyX {
+    justify-content: space-evenly;
+}
+
+
+/*================================================================================================================================
+Divs Flex Align Content
+================================================================================================================================*/
+
+.contentStartY {
+    align-content: flex-start;
+}
+
+.contentCenterY {
+    align-content: center;
+}
+
+.contentEndY {
+    align-content: flex-end;
+}
+
+.contentBetweenY {
+    align-content: space-between;
+}
+
+.contentAroundY {
+    align-content: space-around;
+}
+
+.contentEvenlyY {
+    align-content: space-evenly;
+}
+
+
+/*================================================================================================================================
+alignSelf
+================================================================================================================================*/
+
+.selfStart {
+    align-self: flex-start;
+}
+
+.selfCenter {
+    align-self: center;
+}
+
+.selfEnd {
+    align-self: flex-end;
+}
+
+.selfBetween {
+    align-self: space-between;
+}
+
+.selfAround {
+    align-self: space-around;
+}
+
+.selfEvenly {
+    align-self: space-evenly;
+}
+
+
+/*================================================================================================================================
+alignItems
+================================================================================================================================*/
+
+.itemsStart {
+    align-items: flex-start;
+}
+
+.itemsCenter {
+    align-items: center;
+}
+
+.itemsEnd {
+    align-items: flex-end;
+}
+
+.itemsStretch {
+    align-items: stretch;
+}
+
+
+/*================================================================================================================================
+Positions
+================================================================================================================================*/
+
+.positionFixed {
+    position: fixed;
+}
+
+.positionAbsolute {
+    position: absolute;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.positionSticky {
+    position: sticky;
+}
+
+.positionTop {
+    top: 0;
+}
+
+.positionRight {
+    right: 0;
+}
+
+.positionBottom {
+    bottom: 0;
+}
+
+.positionLeft {
+    left: 0;
+}
+
+.positionTopLeft {
+    top: 0;
+    left: 0;
+}
+
+.positionTopRight {
+    top: 0;
+    right: 0;
+}
+
+.positionBottomRight {
+    right: 0;
+    bottom: 0;
+}
+
+.positionBottomLeft {
+    bottom: 0;
+    left: 0;
+}
+
+.positionCenter {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.positionTopCenter {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.positionRightCenter {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.positionBottomCenter {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.positionLeftCenter {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+
+/*================================================================================================================================
+text align
+================================================================================================================================*/
+
+.textLeft {
+    text-align: left;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+
+/*================================================================================================================================
+headers
+================================================================================================================================*/
+
+.header-1 {
+    font-size: 80px;
+}
+
+.header-2 {
+    font-size: 68px;
+}
+
+.header-3 {
+    font-size: 56px;
+}
+
+.header-4 {
+    font-size: 44px;
+}
+
+.header-5 {
+    font-size: 32px;
+}
+
+.header-6 {
+    font-size: 20px;
+}
+
+.subHeader-1 {
+    font-size: 72px;
+}
+
+.subHeader-2 {
+    font-size: 60px;
+}
+
+.subHeader-3 {
+    font-size: 48px;
+}
+
+.subHeader-4 {
+    font-size: 36px;
+}
+
+.subHeader-5 {
+    font-size: 24px;
+}
+
+.subHeader-6 {
+    font-size: 12px;
+}
+
+.display-1 {
+    font-size: 200px;
+}
+
+.display-2 {
+    font-size: 170px;
+}
+
+.display-3 {
+    font-size: 140px;
+}
+
+.display-4 {
+    font-size: 110px;
+}
+
+.display-5 {
+    font-size: 80px;
+}
+
+.display-6 {
+    font-size: 50px;
+}
+
+
+/*================================================================================================================================
+allSizes
+================================================================================================================================*/
+
+.formrow {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid #1d1d1d;
+    border-radius: var(--gap);
+    overflow: hidden;
+}
+
+.formrow * {
+    border-width: 0 !important;
+    border-radius: 0 !important;
+}
+
+.formrow input {
+    flex: 1;
+    width: 0px;
+}
+
+.btn,
+.tag,
+.icon,
+.formbox {
+    text-decoration: unset;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    border-radius: var(--gap);
+    border: 1px solid var(--default)
+}
+
+.icon,
+.icon i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbox {
+    border-color: #1d1d1d;
+}
+
+.btn.light,
+.tag.light,
+.icon.light {
+    border-color: var(--defaultLight);
+}
+
+.btn.bold,
+.tag.bold,
+.icon.bold {
+    border-color: var(--defaultBold);
+}
+
+.btn.primary,
+.tag.primary,
+.icon.primary {
+    border-color: var(--primary);
+}
+
+.btn.primaryLight,
+.tag.primaryLight,
+.icon.primaryLight {
+    border-color: var(--primaryLight);
+}
+
+.btn.primaryBold,
+.tag.primaryBold,
+.icon.primaryBold {
+    border-color: var(--primaryBold);
+}
+
+.btn.secondary,
+.tag.secondary,
+.icon.secondary {
+    border-color: var(--secondary);
+}
+
+.btn.secondaryLight,
+.tag.secondaryLight,
+.icon.secondaryLight {
+    border-color: var(--secondaryLight);
+}
+
+.btn.secondaryBold,
+.tag.secondaryBold,
+.icon.secondaryBold {
+    border-color: var(--secondaryBold);
+}
+
+.btn.success,
+.tag.success,
+.icon.success {
+    border-color: var(--success);
+}
+
+.btn.successLight,
+.tag.successLight,
+.icon.successLight {
+    border-color: var(--successLight);
+}
+
+.btn.successBold,
+.tag.successBold,
+.icon.successBold {
+    border-color: var(--successBold);
+}
+
+.btn.info,
+.tag.info,
+.icon.info {
+    border-color: var(--info);
+}
+
+.btn.infoLight,
+.tag.infoLight,
+.icon.infoLight {
+    border-color: var(--infoLight);
+}
+
+.btn.infoBold,
+.tag.infoBold,
+.icon.infoBold {
+    border-color: var(--infoBold);
+}
+
+.btn.warning,
+.tag.warning,
+.icon.warning {
+    border-color: var(--warning);
+}
+
+.btn.warningLight,
+.tag.warningLight,
+.icon.warningLight {
+    border-color: var(--warningLight);
+}
+
+.btn.warningBold,
+.tag.warningBold,
+.icon.warningBold {
+    border-color: var(--warningBold);
+}
+
+.btn.danger,
+.tag.danger,
+.icon.danger {
+    border-color: var(--danger);
+}
+
+.btn.dangerLight,
+.tag.dangerLight,
+.icon.dangerLight {
+    border-color: var(--dangerLight);
+}
+
+.btn.dangerBold,
+.tag.dangerBold,
+.icon.dangerBold {
+    border-color: var(--dangerBold);
+}
+
+.btn.dark,
+.tag.dark,
+.icon.dark {
+    border-color: var(--dark);
+}
+
+.btn.darkLight,
+.tag.darkLight,
+.icon.darkLight {
+    border-color: var(--darkLight);
+}
+
+.btn.darkBold,
+.tag.darkBold,
+.icon.darkBold {
+    border-color: var(--darkBold);
+}
+
+.nav,
+.btn,
+.tag,
+.box,
+.icon,
+.alert,
+.banner,
+.formrow span,
+.formrow label {
+    background-color: var(--default);
+}
+
+.nav.primary,
+.btn.primary,
+.tag.primary,
+.box.primary,
+.icon.primary,
+.alert.primary,
+.banner.primary,
+.formrow.primary span,
+.formrow.primary label {
+    background-color: var(--primary);
+}
+
+.nav.secondary,
+.btn.secondary,
+.tag.secondary,
+.box.secondary,
+.icon.secondary,
+.alert.secondary,
+.banner.secondary,
+.formrow.secondary span,
+.formrow.secondary label {
+    background-color: var(--secondary);
+}
+
+.nav.success,
+.btn.success,
+.tag.success,
+.box.success,
+.icon.success,
+.alert.success,
+.banner.success,
+.formrow.success span,
+.formrow.success label {
+    background-color: var(--success);
+}
+
+.nav.info,
+.btn.info,
+.tag.info,
+.box.info,
+.icon.info,
+.alert.info,
+.banner.info,
+.formrow.info span,
+.formrow.info label {
+    background-color: var(--info);
+}
+
+.nav.warning,
+.btn.warning,
+.tag.warning,
+.box.warning,
+.icon.warning,
+.alert.warning,
+.banner.warning,
+.formrow.warning span,
+.formrow.warning label {
+    background-color: var(--warning);
+}
+
+.nav.danger,
+.btn.danger,
+.tag.danger,
+.box.danger,
+.icon.danger,
+.alert.danger,
+.banner.danger,
+.formrow.danger span,
+.formrow.danger label {
+    background-color: var(--danger);
+}
+
+.nav.dark,
+.btn.dark,
+.tag.dark,
+.box.dark,
+.icon.dark,
+.alert.dark,
+.banner.dark,
+.formrow.dark span,
+.formrow.dark label {
+    background-color: var(--dark);
+}
+
+.nav.light,
+.btn.light,
+.tag.light,
+.box.light,
+.icon.light,
+.alert.light,
+.banner.light,
+.formrow.light span,
+.formrow.light label {
+    background-color: var(--defaultLight);
+}
+
+.nav.primaryLight,
+.btn.primaryLight,
+.tag.primaryLight,
+.box.primaryLight,
+.icon.primaryLight,
+.alert.primaryLight,
+.banner.primaryLight,
+.formrow.primaryLight span,
+.formrow.primaryLight label {
+    background-color: var(--primaryLight);
+}
+
+.nav.secondaryLight,
+.btn.secondaryLight,
+.tag.secondaryLight,
+.box.secondaryLight,
+.icon.secondaryLight,
+.alert.secondaryLight,
+.banner.secondaryLight,
+.formrow.secondaryLight span,
+.formrow.secondaryLight label {
+    background-color: var(--secondaryLight);
+}
+
+.nav.successLight,
+.btn.successLight,
+.tag.successLight,
+.box.successLight,
+.icon.backSuccessLight,
+.alert.successLight,
+.banner.successLight,
+.formrow.successLight span,
+.formrow.successLight label {
+    background-color: var(--successLight);
+}
+
+.nav.infoLight,
+.btn.infoLight,
+.tag.infoLight,
+.box.infoLight,
+.icon.infoLight,
+.alert.infoLight,
+.banner.infoLight,
+.formrow.infoLight span,
+.formrow.infoLight label {
+    background-color: var(--infoLight);
+}
+
+.nav.warningLight,
+.btn.warningLight,
+.tag.warningLight,
+.box.warningLight,
+.icon.warningLight,
+.alert.warningLight,
+.banner.warningLight,
+.formrow.warningLight span,
+.formrow.warningLight label {
+    background-color: var(--warningLight);
+}
+
+.nav.dangerLight,
+.btn.dangerLight,
+.tag.dangerLight,
+.box.dangerLight,
+.icon.dangerLight,
+.alert.dangerLight,
+.banner.dangerLight,
+.formrow.dangerLight span,
+.formrow.dangerLight label {
+    background-color: var(--dangerLight);
+}
+
+.nav.darkLight,
+.btn.darkLight,
+.tag.darkLight,
+.box.darkLight,
+.icon.darkLight,
+.alert.darkLight,
+.banner.darkLight,
+.formrow.darkLight span,
+.formrow.darkLight label {
+    background-color: var(--darkLight);
+}
+
+.nav.bold,
+.btn.bold,
+.tag.bold,
+.box.bold,
+.icon.bold,
+.alert.bold,
+.banner.bold,
+.formrow.bold span,
+.formrow.bold label {
+    background-color: var(--defaultBold);
+}
+
+.nav.primaryBold,
+.btn.primaryBold,
+.tag.primaryBold,
+.box.primaryBold,
+.icon.primaryBold,
+.alert.primaryBold,
+.banner.primaryBold,
+.formrow.primaryBold span,
+.formrow.primaryBold label {
+    background-color: var(--primaryBold);
+}
+
+.nav.secondaryBold,
+.btn.secondaryBold,
+.tag.secondaryBold,
+.box.secondaryBold,
+.icon.secondaryBold,
+.alert.secondaryBold,
+.banner.secondaryBold,
+.formrow.secondaryBold span,
+.formrow.secondaryBold label {
+    background-color: var(--secondaryBold);
+}
+
+.nav.successBold,
+.btn.successBold,
+.tag.successBold,
+.box.successBold,
+.icon.successBold,
+.alert.successBold,
+.banner.successBold,
+.formrow.successBold span,
+.formrow.successBold label {
+    background-color: var(--successBold);
+}
+
+.nav.infoBold,
+.btn.infoBold,
+.tag.infoBold,
+.box.infoBold,
+.icon.infoBold,
+.alert.infoBold,
+.banner.infoBold,
+.formrow.infoBold span,
+.formrow.infoBold label {
+    background-color: var(--infoBold);
+}
+
+.nav.warningBold,
+.btn.warningBold,
+.tag.warningBold,
+.box.warningBold,
+.icon.warningBold,
+.alert.warningBold,
+.banner.warningBold,
+.formrow.warningBold span,
+.formrow.warningBold label {
+    background-color: var(--warningBold);
+}
+
+.nav.dangerBold,
+.btn.dangerBold,
+.tag.dangerBold,
+.box.dangerBold,
+.icon.dangerBold,
+.alert.dangerBold,
+.banner.dangerBold,
+.formrow.dangerBold span,
+.formrow.dangerBold label {
+    background-color: var(--dangerBold);
+}
+
+.nav.darkBold,
+.btn.darkBold,
+.tag.darkBold,
+.box.darkBold,
+.icon.darkBold,
+.alert.darkBold,
+.banner.darkBold,
+.formrow.darkBold span,
+.formrow.darkBold label {
+    background-color: var(--darkBold);
+}
+
+.btn.pill,
+.tag.pill,
+.icon.rounded,
+.formbox.pill,
+.formrow.pill {
+    border-radius: 100px;
+}
+
+.btn.hollow,
+.tag.hollow,
+.icon.hollow,
+.icon.hollow i {
+    color: var(--default);
+    border-color: var(--default);
+}
+
+.btn.light.hollow,
+.tag.light.hollow,
+.icon.light.hollow,
+.icon.light.hollow i {
+    color: var(--defaultLight);
+    border-color: var(--defaultLight);
+}
+
+.btn.bold.hollow,
+.tag.bold.hollow,
+.icon.bold.hollow,
+.icon.bold.hollow i {
+    color: var(--defaultBold);
+    border-color: var(--defaultBold);
+}
+
+.btn.primary.hollow,
+.tag.primary.hollow,
+.icon.primary.hollow,
+.icon.primary.hollow i {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn.primaryLight.hollow,
+.tag.primaryLight.hollow,
+.icon.primaryLight.hollow,
+.icon.primaryLight.hollow i {
+    color: var(--primaryLight);
+    border-color: var(--primaryLight);
+}
+
+.btn.primaryBold.hollow,
+.tag.primaryBold.hollow,
+.icon.primaryBold.hollow,
+.icon.primaryBold.hollow i {
+    color: var(--primaryBold);
+    border-color: var(--primaryBold);
+}
+
+.btn.secondary.hollow,
+.tag.secondary.hollow,
+.icon.secondary.hollow,
+.icon.secondary.hollow i {
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.btn.secondaryLight.hollow,
+.tag.secondaryLight.hollow,
+.icon.secondaryLight.hollow,
+.icon.secondaryLight.hollow i {
+    color: var(--secondaryLight);
+    border-color: var(--secondaryLight);
+}
+
+.btn.secondaryBold.hollow,
+.tag.secondaryBold.hollow,
+.icon.secondaryBold.hollow,
+.icon.secondaryBold.hollow i {
+    color: var(--secondaryBold);
+    border-color: var(--secondaryBold);
+}
+
+.btn.success.hollow,
+.tag.success.hollow,
+.icon.success.hollow,
+.icon.success.hollow i {
+    color: var(--success);
+    border-color: var(--success);
+}
+
+.btn.successLight.hollow,
+.tag.successLight.hollow,
+.icon.successLight.hollow,
+.icon.successLight.hollow i {
+    color: var(--successLight);
+    border-color: var(--successLight);
+}
+
+.btn.successBold.hollow,
+.tag.successBold.hollow,
+.icon.successBold.hollow,
+.icon.successBold.hollow i {
+    color: var(--successBold);
+    border-color: var(--successBold);
+}
+
+.btn.info.hollow,
+.tag.info.hollow,
+.icon.info.hollow,
+.icon.info.hollow i {
+    color: var(--info);
+    border-color: var(--info);
+}
+
+.btn.infoLight.hollow,
+.tag.infoLight.hollow,
+.icon.infoLight.hollow,
+.icon.infoLight.hollow i {
+    color: var(--infoLight);
+    border-color: var(--infoLight);
+}
+
+.btn.infoBold.hollow,
+.tag.infoBold.hollow,
+.icon.infoBold.hollow,
+.icon.infoBold.hollow i {
+    color: var(--infoBold);
+    border-color: var(--infoBold);
+}
+
+.btn.warning.hollow,
+.tag.warning.hollow,
+.icon.warning.hollow,
+.icon.warning.hollow i {
+    color: var(--warning);
+    border-color: var(--warning);
+}
+
+.btn.warningLight.hollow,
+.tag.warningLight.hollow,
+.icon.warningLight.hollow,
+.icon.warningLight.hollow i {
+    color: var(--warningLight);
+    border-color: var(--warningLight);
+}
+
+.btn.warningBold.hollow,
+.tag.warningBold.hollow,
+.icon.warningBold.hollow,
+.icon.warningBold.hollow i {
+    color: var(--warningBold);
+    border-color: var(--warningBold);
+}
+
+.btn.danger.hollow,
+.tag.danger.hollow,
+.icon.danger.hollow,
+.icon.danger.hollow i {
+    color: var(--danger);
+    border-color: var(--danger);
+}
+
+.btn.dangerLight.hollow,
+.tag.dangerLight.hollow,
+.icon.dangerLight.hollow,
+.icon.dangerLight.hollow i {
+    color: var(--dangerLight);
+    border-color: var(--dangerLight);
+}
+
+.btn.dangerBold.hollow,
+.tag.dangerBold.hollow,
+.icon.dangerBold.hollow,
+.icon.dangerBold.hollow i {
+    color: var(--dangerBold);
+    border-color: var(--dangerBold);
+}
+
+.btn.dark.hollow,
+.tag.dark.hollow,
+.icon.dark.hollow,
+.icon.dark.hollow i {
+    color: var(--dark);
+    border-color: var(--dark);
+}
+
+.btn.darkLight.hollow,
+.tag.darkLight.hollow,
+.icon.darkLight.hollow,
+.icon.darkLight.hollow i {
+    color: var(--darkLight);
+    border-color: var(--darkLight);
+}
+
+.btn.darkBold.hollow,
+.tag.darkBold.hollow,
+.icon.darkBold.hollow,
+.icon.darkBold.hollow i {
+    color: var(--darkBold);
+    border-color: var(--darkBold);
+}
+
+.btn.blank,
+.tag.blank,
+.icon.blank,
+.icon.blank i {
+    color: var(--default);
+}
+
+.btn.light.blank,
+.tag.light.blank,
+.icon.light.blank,
+.icon.light.blank i {
+    color: var(--defaultLight);
+}
+
+.btn.bold.blank,
+.tag.bold.blank,
+.icon.bold.blank,
+.icon.bold.blank i {
+    color: var(--defaultBold);
+}
+
+.btn.primary.blank,
+.tag.primary.blank,
+.icon.primary.blank,
+.icon.primary.blank i {
+    color: var(--primary);
+}
+
+.btn.primaryLight.blank,
+.tag.primaryLight.blank,
+.icon.primaryLight.blank,
+.icon.primaryLight.blank i {
+    color: var(--primaryLight);
+}
+
+.btn.primaryBold.blank,
+.tag.primaryBold.blank,
+.icon.primaryBold.blank,
+.icon.primaryBold.blank i {
+    color: var(--primaryBold);
+}
+
+.btn.secondary.blank,
+.tag.secondary.blank,
+.icon.secondary.blank,
+.icon.secondary.blank i {
+    color: var(--secondary);
+}
+
+.btn.secondaryLight.blank,
+.tag.secondaryLight.blank,
+.icon.secondaryLight.blank,
+.icon.secondaryLight.blank i {
+    color: var(--secondaryLight);
+}
+
+.btn.secondaryBold.blank,
+.tag.secondaryBold.blank,
+.icon.secondaryBold.blank,
+.icon.secondaryBold.blank i {
+    color: var(--secondaryBold);
+}
+
+.btn.success.blank,
+.tag.success.blank,
+.icon.success.blank,
+.icon.success.blank i {
+    color: var(--success);
+}
+
+.btn.successLight.blank,
+.tag.successLight.blank,
+.icon.successLight.blank,
+.icon.successLight.blank i {
+    color: var(--successLight);
+}
+
+.btn.successBold.blank,
+.tag.successBold.blank,
+.icon.successBold.blank,
+.icon.successBold.blank i {
+    color: var(--successBold);
+}
+
+.btn.info.blank,
+.tag.info.blank,
+.icon.info.blank,
+.icon.info.blank i {
+    color: var(--info);
+}
+
+.btn.infoLight.blank,
+.tag.infoLight.blank,
+.icon.infoLight.blank,
+.icon.infoLight.blank i {
+    color: var(--infoLight);
+}
+
+.btn.infoBold.blank,
+.tag.infoBold.blank,
+.icon.infoBold.blank,
+.icon.infoBold.blank i {
+    color: var(--infoBold);
+}
+
+.btn.warning.blank,
+.tag.warning.blank,
+.icon.warning.blank,
+.icon.warning.blank i {
+    color: var(--warning);
+}
+
+.btn.warningLight.blank,
+.tag.warningLight.blank,
+.icon.warningLight.blank,
+.icon.warningLight.blank i {
+    color: var(--warningLight);
+}
+
+.btn.warningBold.blank,
+.tag.warningBold.blank,
+.icon.warningBold.blank,
+.icon.warningBold.blank i {
+    color: var(--warningBold);
+}
+
+.btn.danger.blank,
+.tag.danger.blank,
+.icon.danger.blank,
+.icon.danger.blank i {
+    color: var(--danger);
+}
+
+.btn.dangerLight.blank,
+.tag.dangerLight.blank,
+.icon.dangerLight.blank,
+.icon.dangerLight.blank i {
+    color: var(--dangerLight);
+}
+
+.btn.dangerBold.blank,
+.tag.dangerBold.blank,
+.icon.dangerBold.blank,
+.icon.dangerBold.blank i {
+    color: var(--dangerBold);
+}
+
+.btn.dark.blank,
+.tag.dark.blank,
+.icon.dark.blank,
+.icon.dark.blank i {
+    color: var(--dark);
+}
+
+.btn.darkLight.blank,
+.tag.darkLight.blank,
+.icon.darkLight.blank,
+.icon.darkLight.blank i {
+    color: var(--darkLight);
+}
+
+.btn.darkBold.blank,
+.tag.darkBold.blank,
+.icon.darkBold.blank,
+.icon.darkBold.blank i {
+    color: var(--darkBold);
+}
+
+.btn.charge {
+    position: relative;
+    overflow: hidden;
+    color: transparent;
+}
+
+.btn.charge::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border-style: solid;
+    transform: translate(-50%, -50%);
+    animation: btnCharge 0.5s infinite linear;
+}
+
+.btn.large.charge::before {
+    width: 25px;
+    height: 25px;
+    border-width: 4px;
+}
+
+.btn.charge::before {
+    width: 20px;
+    height: 20px;
+    border-width: 3px;
+}
+
+.btn.medium.charge::before {
+    width: 15px;
+    height: 15px;
+    border-width: 2px;
+}
+
+.btn.small.charge::before {
+    width: 10px;
+    height: 10px;
+    border-width: 1px;
+}
+
+.btn.charge::before,
+.btn.light.charge::before,
+.btn.primaryLight.charge::before,
+.btn.secondaryLight.charge::before,
+.btn.successLight.charge::before,
+.btn.infoLight.charge::before,
+.btn.warningLight.charge::before,
+.btn.warning.charge::before,
+.btn.dangerLight.charge::before,
+.btn.darkLight.charge::before {
+    border-color: #1d1d1d;
+    border-bottom-color: transparent;
+}
+
+.btn.Bold.charge::before,
+.btn.primaryBold.charge::before,
+.btn.secondaryBold.charge::before,
+.btn.successBold.charge::before,
+.btn.infoBold.charge::before,
+.btn.warningBold.charge::before,
+.btn.dangerBold.charge::before,
+.btn.darkBold.charge::before,
+.btn.primary.charge::before,
+.btn.secondary.charge::before,
+.btn.success.charge::before,
+.btn.info.charge::before,
+.btn.warning.charge::before,
+.btn.danger.charge::before,
+.btn.dark.charge::before {
+    border-color: #ffffff;
+    border-bottom-color: transparent;
+}
+
+.btn.disable,
+.tag.disable,
+.icon.disable {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+@keyframes btnCharge {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+/*================================================================================================================================
+images
+================================================================================================================================*/
+
+.image {
+    display: inline-block;
+}
+
+.image.thumbnail {
+    padding: var(--gap);
+    background-color: var(--default);
+}
+
+.image.rounded {
+    border-radius: var(--gap);
+}
+
+.image.circled {
+    border-radius: 50%;
+}
+
+.image.size-16x16 {
+    width: 16px;
+    height: 16px;
+}
+
+.image.size-24x24 {
+    width: 24px;
+    height: 24px;
+}
+
+.image.size-32x32 {
+    width: 32px;
+    height: 32px;
+}
+
+.image.size-48x48 {
+    width: 48px;
+    height: 48px;
+}
+
+.image.size-64x64 {
+    width: 64px;
+    height: 64px;
+}
+
+.image.size-96x96 {
+    width: 96px;
+    height: 96px;
+}
+
+.image.size-128x128 {
+    width: 128px;
+    height: 128px;
+}
+
+.image.size-1x1 {
+    width: 480px;
+    height: 480px;
+}
+
+.image.size-2x1 {
+    width: 640px;
+    height: 320px;
+}
+
+.image.size-3x1 {
+    width: 720px;
+    height: 240px;
+}
+
+.image.size-3x2 {
+    width: 480px;
+    height: 320px;
+}
+
+.image.size-4x3 {
+    width: 640px;
+    height: 480px;
+}
+
+.image.size-5x3 {
+    width: 800px;
+    height: 480px;
+}
+
+.image.size-5x4 {
+    width: 600px;
+    height: 480px;
+}
+
+
+/*================================================================================================================================
+Object Fit Types
+================================================================================================================================*/
+
+.objectCover {
+    object-fit: cover;
+}
+
+.objectContain {
+    object-fit: contain;
+}
+
+.objectFill {
+    object-fit: fill;
+}
+
+.objectTop {
+    object-position: top;
+}
+
+.objectRight {
+    object-position: right;
+}
+
+.objectBottom {
+    object-position: bottom;
+}
+
+.objectLeft {
+    object-position: left;
+}
+
+.objectCenter {
+    object-position: center;
+}
+
+
+/*================================================================================================================================
+backgrounds
+================================================================================================================================*/
+
+.backTransparent {
+    background-color: transparent !important;
+}
+
+.back {
+    background-color: var(--default) !important;
+}
+
+.backPrimary {
+    background-color: var(--primary) !important;
+}
+
+.backSecondary {
+    background-color: var(--secondary) !important;
+}
+
+.backSuccess {
+    background-color: var(--success) !important;
+}
+
+.backInfo {
+    background-color: var(--info) !important;
+}
+
+.backWarning {
+    background-color: var(--warning) !important;
+}
+
+.backDanger {
+    background-color: var(--danger) !important;
+}
+
+.backDark {
+    background-color: var(--dark) !important;
+}
+
+.backLight {
+    background-color: var(--defaultLight) !important;
+}
+
+.backPrimaryLight {
+    background-color: var(--primaryLight) !important;
+}
+
+.backSecondaryLight {
+    background-color: var(--secondaryLight) !important;
+}
+
+.backSuccessLight {
+    background-color: var(--successLight) !important;
+}
+
+.backInfoLight {
+    background-color: var(--infoLight) !important;
+}
+
+.backWarningLight {
+    background-color: var(--warningLight) !important;
+}
+
+.backDangerLight {
+    background-color: var(--dangerLight) !important;
+}
+
+.backDarkLight {
+    background-color: var(--darkLight) !important;
+}
+
+.backDark {
+    background-color: var(--defaultBold) !important;
+}
+
+.backPrimaryBold {
+    background-color: var(--primaryBold) !important;
+}
+
+.backSecondaryBold {
+    background-color: var(--secondaryBold) !important;
+}
+
+.backSuccessBold {
+    background-color: var(--successBold) !important;
+}
+
+.backInfoBold {
+    background-color: var(--infoBold) !important;
+}
+
+.backWarningBold {
+    background-color: var(--warningBold) !important;
+}
+
+.backDangerBold {
+    background-color: var(--dangerBold) !important;
+}
+
+.backDarkBold {
+    background-color: var(--darkBold) !important;
+}
+
+
+/*================================================================================================================================
+font color
+================================================================================================================================*/
+
+.text {
+    color: var(--default) !important;
+}
+
+.textPrimary {
+    color: var(--primary) !important;
+}
+
+.textSecondary {
+    color: var(--secondary) !important;
+}
+
+.textSuccess {
+    color: var(--success) !important;
+}
+
+.textInfo {
+    color: var(--info) !important;
+}
+
+.textWarning {
+    color: var(--warning) !important;
+}
+
+.textDanger {
+    color: var(--danger) !important;
+}
+
+.textDark {
+    color: var(--dark) !important;
+}
+
+.textLight {
+    color: var(--defaultLight) !important;
+}
+
+.textPrimaryLight {
+    color: var(--primaryLight) !important;
+}
+
+.textSecondaryLight {
+    color: var(--secondaryLight) !important;
+}
+
+.textSuccessLight {
+    color: var(--successLight) !important;
+}
+
+.textInfoLight {
+    color: var(--infoLight) !important;
+}
+
+.textWarningLight {
+    color: var(--warningLight) !important;
+}
+
+.textDangerLight {
+    color: var(--dangerLight) !important;
+}
+
+.textDarkLight {
+    color: var(--darkLight) !important;
+}
+
+.textBold {
+    color: var(--defaultBold) !important;
+}
+
+.textPrimaryBold {
+    color: var(--primaryBold) !important;
+}
+
+.textSecondaryBold {
+    color: var(--secondaryBold) !important;
+}
+
+.textSuccessBold {
+    color: var(--successBold) !important;
+}
+
+.textInfoBold {
+    color: var(--infoBold) !important;
+}
+
+.textWarningBold {
+    color: var(--warningBold) !important;
+}
+
+.textDangerBold {
+    color: var(--dangerBold) !important;
+}
+
+.textDarkBold {
+    color: var(--darkBold) !important;
+}
+
+
+/*================================================================================================================================
+text decoration
+================================================================================================================================*/
+
+.textUnderline {
+    text-decoration: underline;
+}
+
+.textOverline {
+    text-decoration: overline;
+}
+
+.textStrike {
+    text-decoration: line-through;
+}
+
+
+/*================================================================================================================================
+font weight
+================================================================================================================================*/
+
+.weight-100 {
+    font-weight: 100 !important;
+}
+
+.weight-200 {
+    font-weight: 200 !important;
+}
+
+.weight-300 {
+    font-weight: 300 !important;
+}
+
+.weight-400 {
+    font-weight: 400 !important;
+}
+
+.weight-500 {
+    font-weight: 500 !important;
+}
+
+.weight-600 {
+    font-weight: 600 !important;
+}
+
+.weight-700 {
+    font-weight: 700 !important;
+}
+
+.weight-800 {
+    font-weight: 800 !important;
+}
+
+.weight-900 {
+    font-weight: 900 !important;
+}
+
+
+/*================================================================================================================================
+font size
+================================================================================================================================*/
+
+.size-8 {
+    font-size: 8px !important;
+}
+
+.size-9 {
+    font-size: 9px !important;
+}
+
+.size-10 {
+    font-size: 10px !important;
+}
+
+.size-11 {
+    font-size: 11px !important;
+}
+
+.size-12 {
+    font-size: 12px !important;
+}
+
+.size-14 {
+    font-size: 14px !important;
+}
+
+.size-16 {
+    font-size: 16px !important;
+}
+
+.size-18 {
+    font-size: 18px !important;
+}
+
+.size-20 {
+    font-size: 20px !important;
+}
+
+.size-22 {
+    font-size: 22px !important;
+}
+
+.size-24 {
+    font-size: 24px !important;
+}
+
+.size-26 {
+    font-size: 26px !important;
+}
+
+.size-28 {
+    font-size: 28px !important;
+}
+
+.size-30 {
+    font-size: 30px !important;
+}
+
+.size-32 {
+    font-size: 32px !important;
+}
+
+.size-34 {
+    font-size: 34px !important;
+}
+
+.size-36 {
+    font-size: 36px !important;
+}
+
+.size-38 {
+    font-size: 38px !important;
+}
+
+.size-40 {
+    font-size: 40px !important;
+}
+
+.size-42 {
+    font-size: 42px !important;
+}
+
+.size-44 {
+    font-size: 44px !important;
+}
+
+.size-46 {
+    font-size: 46px !important;
+}
+
+.size-48 {
+    font-size: 48px !important;
+}
+
+.size-50 {
+    font-size: 50px !important;
+}
+
+.size-52 {
+    font-size: 52px !important;
+}
+
+.size-54 {
+    font-size: 54px !important;
+}
+
+.size-56 {
+    font-size: 56px !important;
+}
+
+.size-58 {
+    font-size: 58px !important;
+}
+
+.size-60 {
+    font-size: 60px !important;
+}
+
+.size-62 {
+    font-size: 62px !important;
+}
+
+.size-64 {
+    font-size: 64px !important;
+}
+
+.size-66 {
+    font-size: 66px !important;
+}
+
+.size-68 {
+    font-size: 68px !important;
+}
+
+.size-70 {
+    font-size: 70px !important;
+}
+
+.size-72 {
+    font-size: 72px !important;
+}
+
+
+/*================================================================================================================================
+padding
+================================================================================================================================*/
+
+.padding-0 {
+    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+
+.paddingX-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.paddingY-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.paddingTop-0 {
+    padding-top: 0 !important;
+}
+
+.paddingRight-0 {
+    padding-right: 0 !important;
+}
+
+.paddingBottom-0 {
+    padding-bottom: 0 !important;
+}
+
+.paddingLeft-0 {
+    padding-left: 0 !important;
+}
+
+.padding-1 {
+    padding: 50px !important;
+}
+
+.padding-2 {
+    padding: 40px !important;
+}
+
+.padding-3 {
+    padding: 30px !important;
+}
+
+.padding-4 {
+    padding: 20px !important;
+}
+
+.padding-5 {
+    padding: 10px !important;
+}
+
+.padding-6 {
+    padding: 5px !important;
+}
+
+.paddingX-1 {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+.paddingX-2 {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+
+.paddingX-3 {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+.paddingX-4 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.paddingX-5 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+.paddingX-6 {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.paddingY-1 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.paddingY-2 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.paddingY-3 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.paddingY-4 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.paddingY-5 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.paddingY-6 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.paddingTop-1 {
+    padding-top: 50px !important;
+}
+
+.paddingTop-2 {
+    padding-top: 40px !important;
+}
+
+.paddingTop-3 {
+    padding-top: 30px !important;
+}
+
+.paddingTop-4 {
+    padding-top: 20px !important;
+}
+
+.paddingTop-5 {
+    padding-top: 10px !important;
+}
+
+.paddingTop-6 {
+    padding-top: 5px !important;
+}
+
+.paddingRight-1 {
+    padding-right: 50px !important;
+}
+
+.paddingRight-2 {
+    padding-right: 40px !important;
+}
+
+.paddingRight-3 {
+    padding-right: 30px !important;
+}
+
+.paddingRight-4 {
+    padding-right: 20px !important;
+}
+
+.paddingRight-5 {
+    padding-right: 10px !important;
+}
+
+.paddingRight-6 {
+    padding-right: 5px !important;
+}
+
+.paddingBottom-1 {
+    padding-bottom: 50px !important;
+}
+
+.paddingBottom-2 {
+    padding-bottom: 40px !important;
+}
+
+.paddingBottom-3 {
+    padding-bottom: 30px !important;
+}
+
+.paddingBottom-4 {
+    padding-bottom: 20px !important;
+}
+
+.paddingBottom-5 {
+    padding-bottom: 10px !important;
+}
+
+.paddingBottom-6 {
+    padding-bottom: 5px !important;
+}
+
+.paddingLeft-1 {
+    padding-left: 50px !important;
+}
+
+.paddingLeft-2 {
+    padding-left: 40px !important;
+}
+
+.paddingLeft-3 {
+    padding-left: 30px !important;
+}
+
+.paddingLeft-4 {
+    padding-left: 20px !important;
+}
+
+.paddingLeft-5 {
+    padding-left: 10px !important;
+}
+
+.paddingLeft-6 {
+    padding-left: 5px !important;
+}
+
+
+/*================================================================================================================================
+margin
+================================================================================================================================*/
+
+.margin-0 {
+    margin: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+}
+
+.marginX-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.marginY-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.marginTop-0 {
+    margin-top: 0 !important;
+}
+
+.marginRight-0 {
+    margin-right: 0 !important;
+}
+
+.marginBottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.marginLeft-0 {
+    margin-left: 0 !important;
+}
+
+.margin-1 {
+    margin: 50px !important;
+}
+
+.margin-2 {
+    margin: 40px !important;
+}
+
+.margin-3 {
+    margin: 30px !important;
+}
+
+.margin-4 {
+    margin: 20px !important;
+}
+
+.margin-5 {
+    margin: 10px !important;
+}
+
+.margin-6 {
+    margin: 5px !important;
+}
+
+.marginX-1 {
+    margin-right: 50px !important;
+    margin-left: 50px !important;
+}
+
+.marginX-2 {
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+}
+
+.marginX-3 {
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+}
+
+.marginX-4 {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+.marginX-5 {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.marginX-6 {
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+}
+
+.marginY-1 {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.marginY-2 {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+.marginY-3 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.marginY-4 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.marginY-5 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.marginY-6 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.marginTop-1 {
+    margin-top: 50px !important;
+}
+
+.marginTop-2 {
+    margin-top: 40px !important;
+}
+
+.marginTop-3 {
+    margin-top: 30px !important;
+}
+
+.marginTop-4 {
+    margin-top: 20px !important;
+}
+
+.marginTop-5 {
+    margin-top: 10px !important;
+}
+
+.marginTop-6 {
+    margin-top: 5px !important;
+}
+
+.marginRight-1 {
+    margin-right: 50px !important;
+}
+
+.marginRight-2 {
+    margin-right: 40px !important;
+}
+
+.marginRight-3 {
+    margin-right: 30px !important;
+}
+
+.marginRight-4 {
+    margin-right: 20px !important;
+}
+
+.marginRight-5 {
+    margin-right: 10px !important;
+}
+
+.marginRight-6 {
+    margin-right: 5px !important;
+}
+
+.marginBottom-1 {
+    margin-bottom: 50px !important;
+}
+
+.marginBottom-2 {
+    margin-bottom: 40px !important;
+}
+
+.marginBottom-3 {
+    margin-bottom: 30px !important;
+}
+
+.marginBottom-4 {
+    margin-bottom: 20px !important;
+}
+
+.marginBottom-5 {
+    margin-bottom: 10px !important;
+}
+
+.marginBottom-6 {
+    margin-bottom: 5px !important;
+}
+
+.marginLeft-1 {
+    margin-left: 50px !important;
+}
+
+.marginLeft-2 {
+    margin-left: 40px !important;
+}
+
+.marginLeft-3 {
+    margin-left: 30px !important;
+}
+
+.marginLeft-4 {
+    margin-left: 20px !important;
+}
+
+.marginLeft-5 {
+    margin-left: 10px !important;
+}
+
+.marginLeft-6 {
+    margin-left: 5px !important;
+}
+
+
+/*================================================================================================================================
+breaks
+================================================================================================================================*/
+
+.break-1 {
+    height: 50px !important;
+}
+
+.break-2 {
+    height: 40px !important;
+}
+
+.break-3 {
+    height: 30px !important;
+}
+
+.break-4 {
+    height: 20px !important;
+}
+
+.break-5 {
+    height: 10px !important;
+}
+
+.break-6 {
+    height: 5px !important;
+}
+
+
+/*================================================================================================================================
+Border Width
+================================================================================================================================*/
+
+.border-0 {
+    border-width: 0px !important;
+}
+
+.border-1 {
+    border-width: 1px !important;
+}
+
+.border-2 {
+    border-width: 2px !important;
+}
+
+.border-3 {
+    border-width: 3px !important;
+}
+
+.border-4 {
+    border-width: 4px !important;
+}
+
+.border-5 {
+    border-width: 5px !important;
+}
+
+.border-6 {
+    border-width: 6px !important;
+}
+
+.borderLeft-0 {
+    border-left-width: 0px !important;
+}
+
+.borderLeft-1 {
+    border-left-width: 1px !important;
+}
+
+.borderLeft-2 {
+    border-left-width: 2px !important;
+}
+
+.borderLeft-3 {
+    border-left-width: 3px !important;
+}
+
+.borderLeft-4 {
+    border-left-width: 4px !important;
+}
+
+.borderLeft-5 {
+    border-left-width: 5px !important;
+}
+
+.borderLeft-6 {
+    border-left-width: 6px !important;
+}
+
+.borderTop-0 {
+    border-top-width: 0px !important;
+}
+
+.borderTop-1 {
+    border-top-width: 1px !important;
+}
+
+.borderTop-2 {
+    border-top-width: 2px !important;
+}
+
+.borderTop-3 {
+    border-top-width: 3px !important;
+}
+
+.borderTop-4 {
+    border-top-width: 4px !important;
+}
+
+.borderTop-5 {
+    border-top-width: 5px !important;
+}
+
+.borderTop-6 {
+    border-top-width: 6px !important;
+}
+
+.borderRight-0 {
+    border-right-width: 0px !important;
+}
+
+.borderRight-1 {
+    border-right-width: 1px !important;
+}
+
+.borderRight-2 {
+    border-right-width: 2px !important;
+}
+
+.borderRight-3 {
+    border-right-width: 3px !important;
+}
+
+.borderRight-4 {
+    border-right-width: 4px !important;
+}
+
+.borderRight-5 {
+    border-right-width: 5px !important;
+}
+
+.borderRight-6 {
+    border-right-width: 6px !important;
+}
+
+.borderBottom-0 {
+    border-bottom-width: 0px !important;
+}
+
+.borderBottom-1 {
+    border-bottom-width: 1px !important;
+}
+
+.borderBottom-2 {
+    border-bottom-width: 2px !important;
+}
+
+.borderBottom-3 {
+    border-bottom-width: 3px !important;
+}
+
+.borderBottom-4 {
+    border-bottom-width: 4px !important;
+}
+
+.borderBottom-5 {
+    border-bottom-width: 5px !important;
+}
+
+.borderBottom-6 {
+    border-bottom-width: 6px !important;
+}
+
+
+/*================================================================================================================================
+Border Radius
+================================================================================================================================*/
+
+.radius-0 {
+    border-radius: 0px !important;
+}
+
+.radius-1 {
+    border-radius: 30px !important;
+}
+
+.radius-2 {
+    border-radius: 25px !important;
+}
+
+.radius-3 {
+    border-radius: 20px !important;
+}
+
+.radius-4 {
+    border-radius: 15px !important;
+}
+
+.radius-5 {
+    border-radius: 10px !important;
+}
+
+.radius-6 {
+    border-radius: 5px !important;
+}
+
+.radiusTopLeft-0 {
+    border-top-left-radius: 0px !important;
+}
+
+.radiusTopLeft-1 {
+    border-top-left-radius: 30px !important;
+}
+
+.radiusTopLeft-2 {
+    border-top-left-radius: 25px !important;
+}
+
+.radiusTopLeft-3 {
+    border-top-left-radius: 20px !important;
+}
+
+.radiusTopLeft-4 {
+    border-top-left-radius: 15px !important;
+}
+
+.radiusTopLeft-5 {
+    border-top-left-radius: 10px !important;
+}
+
+.radiusTopLeft-6 {
+    border-top-left-radius: 5px !important;
+}
+
+.radiusTopRight-0 {
+    border-top-right-radius: 0px !important;
+}
+
+.radiusTopRight-1 {
+    border-top-right-radius: 30px !important;
+}
+
+.radiusTopRight-2 {
+    border-top-right-radius: 25px !important;
+}
+
+.radiusTopRight-3 {
+    border-top-right-radius: 20px !important;
+}
+
+.radiusTopRight-4 {
+    border-top-right-radius: 15px !important;
+}
+
+.radiusTopRight-5 {
+    border-top-right-radius: 10px !important;
+}
+
+.radiusTopRight-6 {
+    border-top-right-radius: 5px !important;
+}
+
+.radiusBottomRight-0 {
+    border-bottom-right-radius: 0px !important;
+}
+
+.radiusBottomRight-1 {
+    border-bottom-right-radius: 30px !important;
+}
+
+.radiusBottomRight-2 {
+    border-bottom-right-radius: 25px !important;
+}
+
+.radiusBottomRight-3 {
+    border-bottom-right-radius: 20px !important;
+}
+
+.radiusBottomRight-4 {
+    border-bottom-right-radius: 15px !important;
+}
+
+.radiusBottomRight-5 {
+    border-bottom-right-radius: 10px !important;
+}
+
+.radiusBottomRight-6 {
+    border-bottom-right-radius: 5px !important;
+}
+
+.radiusBottomLeft-0 {
+    border-bottom-left-radius: 0px !important;
+}
+
+.radiusBottomLeft-1 {
+    border-bottom-left-radius: 30px !important;
+}
+
+.radiusBottom-2 {
+    border-bottom-left-radius: 25px !important;
+}
+
+.radiusBottom-3 {
+    border-bottom-left-radius: 20px !important;
+}
+
+.radiusBottom-4 {
+    border-bottom-left-radius: 15px !important;
+}
+
+.radiusBottom-5 {
+    border-bottom-left-radius: 10px !important;
+}
+
+.radiusBottom-6 {
+    border-bottom-left-radius: 5px !important;
+}
+
+
+/*================================================================================================================================
+Border Styles
+================================================================================================================================*/
+
+.borderDashed {
+    border-style: dashed !important;
+}
+
+.borderDotted {
+    border-style: dotted !important;
+}
+
+.borderDouble {
+    border-style: double !important;
+}
+
+.borderGroove {
+    border-style: groove !important;
+}
+
+.borderHidden {
+    border-style: hidden !important;
+}
+
+.borderInset {
+    border-style: inset !important;
+}
+
+.borderNone {
+    border-style: none !important;
+}
+
+.borderOutset {
+    border-style: outset !important;
+}
+
+.borderRidge {
+    border-style: ridge !important;
+}
+
+.borderSolid {
+    border-style: solid !important;
+}
+
+.borderUnset {
+    border-style: unset !important;
+}
+
+
+/*================================================================================================================================
+Border Colors
+================================================================================================================================*/
+
+.border {
+    border-color: var(--default) !important;
+}
+
+.borderPrimary {
+    border-color: var(--primary) !important;
+}
+
+.borderSecondary {
+    border-color: var(--secondary) !important;
+}
+
+.borderSuccess {
+    border-color: var(--success) !important;
+}
+
+.borderInfo {
+    border-color: var(--info) !important;
+}
+
+.borderWarning {
+    border-color: var(--warning) !important;
+}
+
+.borderDanger {
+    border-color: var(--danger) !important;
+}
+
+.borderDark {
+    border-color: var(--dark) !important;
+}
+
+.borderLight {
+    border-color: var(--defaultLight) !important;
+}
+
+.borderPrimaryLight {
+    border-color: var(--primaryLight) !important;
+}
+
+.borderSecondaryLight {
+    border-color: var(--secondaryLight) !important;
+}
+
+.borderSuccessLight {
+    border-color: var(--successLight) !important;
+}
+
+.borderInfoLight {
+    border-color: var(--infoLight) !important;
+}
+
+.borderWarningLight {
+    border-color: var(--warningLight) !important;
+}
+
+.borderDangerLight {
+    border-color: var(--dangerLight) !important;
+}
+
+.borderDarkLight {
+    border-color: var(--darkLight) !important;
+}
+
+.borderBold {
+    border-color: var(--defaultBold) !important;
+}
+
+.borderPrimaryBold {
+    border-color: var(--primaryBold) !important;
+}
+
+.borderSecondaryBold {
+    border-color: var(--secondaryBold) !important;
+}
+
+.borderSuccessBold {
+    border-color: var(--successBold) !important;
+}
+
+.borderInfoBold {
+    border-color: var(--infoBold) !important;
+}
+
+.borderWarningBold {
+    border-color: var(--warningBold) !important;
+}
+
+.borderDangerBold {
+    border-color: var(--dangerBold) !important;
+}
+
+.borderDarkBold {
+    border-color: var(--darkBold) !important;
+}
+
+
+/*================================================================================================================================
+inputs
+================================================================================================================================*/
+
+input[type="date"].formbox {
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+}
+
+input[type="date"].formbox.large {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+input[type="date"].formbox.medium {
+    padding-top: 0.95px;
+    padding-bottom: 0.95px;
+}
+
+input[type="date"].formbox.small {
+    padding-top: 0.6px;
+    padding-bottom: 0.6px;
+}
+
+input[type="file"].formbox::-webkit-file-upload-button {
+    border: 0;
+    padding: 0;
+    width: 0;
+}
